@@ -1,0 +1,37 @@
+Jeden proces, pętla 15 min
+
+# Soak GPU — raport
+
+- GPU: NVIDIA GeForce GTX 1650, 610.47, 3
+- Zasilanie: zasilacz; plan: Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)
+- Czas: 15 min, przebiegów: 5, scen na przebieg: 17, pomiar 10 s/scenę, VSync off, jeden proces (--loop-minutes)
+- Telemetria: 1529 próbek co 500 ms (clocks_event_reasons), maks. zegar pamięci w sesji 4001 MHz
+- Baza bezwzględna: C:\Users\mrmae\Documents\Projekty\Windows-strefa-zero\build\gpu-check-2026-11-02b\benchmark-vsync-off\scene-benchmark.csv (17 scen)
+
+## Wynik
+
+- Względnie (mediana fizyki GPU ≥ 2.0 × najlepszy przebieg sceny): **wystąpił** — pierwszy raz w minucie 3.4 (przebieg 2, scena `gpu:avalanche`), 56 z 85 pomiarów scen, ×2.40–4.58.
+- Bezwzględnie (≥ 2.0 × baza): **wystąpił** — pierwszy raz w minucie 3.4 (przebieg 2, scena `gpu:avalanche`), 8 z 85 pomiarów scen, ×3.96–4.17.
+- Telemetrycznie (większość próbek poza P0 albo zegar pamięci poniżej 90% maksimum sesji): **nie wystąpił**.
+- Okna dyskwalifikujące (aktywne hw_* albo sw_thermal_slowdown): 0 z 85; nie nadają się do porównań A/B (protokół pomiaru w CLAUDE.md). sw_power_cap jest tylko raportowany.
+
+Kryterium telemetryczne oznacza też lekkie sceny, w których sterownik sam obniża P-stan; rozstrzyga zestawienie z kryteriami wydajności.
+
+## Powody ograniczenia zegara
+
+| Okna | Próbki | Zegar GPU (MHz) | Zegar pamięci (MHz) | Moc (W) | Limit (W) | Temp. max (°C) | P-stan | Aktywne powody (udział próbek) |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
+| wolne | 777 | 1395 | 4001 | 19.8 | 50 | 74 | P0 | gpu_idle 100% |
+| pozostałe | 477 | 1740 | 4001 | 48.9 | 50 | 86 | P0 | gpu_idle 47%, sw_power_cap 54% |
+
+## Przebiegi (tabela do opisu PR)
+
+| Przebieg | Minuta | Wolne sceny | Mediana ×najlepszy | Mediana ×baza | Zegar GPU (MHz) | Moc (W) | Temp. max (°C) | Powody ograniczenia |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 1 | 0.0 | 0/17 | ×1.00 | ×0.26 | 1800 | 49.4 | 86 | sw_power_cap |
+| 2 | 3.4 | 14/17 | ×3.95 | ×0.97 | 1395 | 20.5 | 74 | brak |
+| 3 | 6.9 | 14/17 | ×3.99 | ×0.99 | 1395 | 20.1 | 64 | brak |
+| 4 | 10.4 | 14/17 | ×4.00 | ×0.99 | 1395 | 19.7 | 62 | brak |
+| 5 | 13.8 | 14/17 | ×4.01 | ×0.98 | 1395 | 19.5 | 61 | brak |
+
+Surowe dane (telemetry.csv, pass-*/ lub run/, soak-summary.csv) trafiają do repozytorium strefa-zero-measurements, nie do tego repozytorium.

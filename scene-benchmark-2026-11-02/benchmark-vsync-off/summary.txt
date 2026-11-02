@@ -1,0 +1,32 @@
+gpu:avalanche              klatka 0.50/1.87/2.21 ms (mediana/p95/p99)  fizyka 1.808  prezentacja 0.070  render 0.133 ms  GPU 227.7 ms/s symulacji  budżet 60 FPS 24%  ticki/klatkę 0.08 (max 1)  utracone 0.000 s  zaległość max 0.0083 s
+gpu:rain                   klatka 0.51/1.09/1.33 ms (mediana/p95/p99)  fizyka 1.066  prezentacja 0.063  render 0.123 ms  GPU 153.7 ms/s symulacji  budżet 60 FPS 16%  ticki/klatkę 0.07 (max 1)  utracone 0.000 s  zaległość max 0.0083 s
+gpu:mixed                  klatka 33.54/34.24/35.17 ms (mediana/p95/p99)  fizyka 7.537  prezentacja 0.200  render 0.487 ms  GPU 956.2 ms/s symulacji  budżet 60 FPS 99%  ticki/klatkę 4.00 (max 4)  utracone 0.275 s  zaległość max 0.2583 s
+gpu:empty                  klatka 1.95/3.26/4.60 ms (mediana/p95/p99)  fizyka 0.137  prezentacja 0.103  render 0.409 ms  GPU 33.3 ms/s symulacji  budżet 60 FPS 6%  ticki/klatkę 0.25 (max 1)  utracone 0.000 s  zaległość max 0.0083 s
+gpu:water-tank             klatka 42.31/44.42/45.22 ms (mediana/p95/p99)  fizyka 9.667  prezentacja 0.282  render 0.791 ms  GPU 1210.4 ms/s symulacji  budżet 60 FPS 126%  ticki/klatkę 4.00 (max 4)  utracone 12.808 s  zaległość max 0.2583 s
+gpu:dam-break              klatka 52.08/53.81/54.42 ms (mediana/p95/p99)  fizyka 12.056  prezentacja 0.290  render 0.793 ms  GPU 1503.0 ms/s symulacji  budżet 60 FPS 155%  ticki/klatkę 4.00 (max 4)  utracone 21.642 s  zaległość max 0.2583 s
+gpu:connected-vessels      klatka 64.45/65.90/66.66 ms (mediana/p95/p99)  fizyka 15.024  prezentacja 0.338  render 0.968 ms  GPU 1867.0 ms/s symulacji  budżet 60 FPS 193%  ticki/klatkę 4.00 (max 4)  utracone 28.967 s  zaległość max 0.2583 s
+gpu:oil-water              klatka 45.90/47.09/47.60 ms (mediana/p95/p99)  fizyka 10.418  prezentacja 0.321  render 0.899 ms  GPU 1312.0 ms/s symulacji  budżet 60 FPS 137%  ticki/klatkę 4.00 (max 4)  utracone 16.408 s  zaległość max 0.2583 s
+gpu:sand-water             klatka 70.60/72.73/73.73 ms (mediana/p95/p99)  fizyka 16.736  prezentacja 0.293  render 0.793 ms  GPU 2056.4 ms/s symulacji  budżet 60 FPS 210%  ticki/klatkę 4.00 (max 4)  utracone 31.667 s  zaległość max 0.2583 s
+gpu:hourglass              klatka 2.46/6.00/6.55 ms (mediana/p95/p99)  fizyka 3.366  prezentacja 0.146  render 0.445 ms  GPU 443.9 ms/s symulacji  budżet 60 FPS 47%  ticki/klatkę 0.39 (max 1)  utracone 0.000 s  zaległość max 0.0083 s
+gpu:inverted-oil           klatka 42.48/43.89/44.60 ms (mediana/p95/p99)  fizyka 9.693  prezentacja 0.267  render 0.718 ms  GPU 1214.8 ms/s symulacji  budżet 60 FPS 126%  ticki/klatkę 4.00 (max 4)  utracone 12.892 s  zaległość max 0.2583 s
+gpu:oil-drop               klatka 39.77/41.23/41.89 ms (mediana/p95/p99)  fizyka 8.994  prezentacja 0.264  render 0.717 ms  GPU 1134.0 ms/s symulacji  budżet 60 FPS 118%  ticki/klatkę 4.00 (max 4)  utracone 9.708 s  zaległość max 0.2583 s
+mission                    klatka 58.31/68.78/69.86 ms (mediana/p95/p99)  fizyka 13.668  prezentacja 0.289  render 0.696 ms  GPU 1683.5 ms/s symulacji  budżet 60 FPS 172%  ticki/klatkę 4.00 (max 4)  utracone 24.592 s  zaległość max 0.2583 s
+thermal:fire               klatka 43.26/69.65/71.59 ms (mediana/p95/p99)  fizyka 8.214  prezentacja 0.934  render 0.966 ms  GPU 1118.4 ms/s symulacji  budżet 60 FPS 118%  ticki/klatkę 4.00 (max 4)  utracone 14.383 s  zaległość max 0.2583 s
+thermal:oil                klatka 83.76/142.04/156.85 ms (mediana/p95/p99)  fizyka 18.031  prezentacja 1.285  render 1.058 ms  GPU 2340.5 ms/s symulacji  budżet 60 FPS 240%  ticki/klatkę 3.93 (max 4)  utracone 36.680 s  zaległość max 0.2583 s
+thermal:quench             klatka 100.36/166.50/176.26 ms (mediana/p95/p99)  fizyka 21.663  prezentacja 1.763  render 1.290 ms  GPU 2816.0 ms/s symulacji  budżet 60 FPS 289%  ticki/klatkę 3.99 (max 4)  utracone 40.400 s  zaległość max 0.2581 s
+thermal:phases             klatka 100.61/167.62/197.57 ms (mediana/p95/p99)  fizyka 22.222  prezentacja 1.234  render 1.208 ms  GPU 2947.6 ms/s symulacji  budżet 60 FPS 302%  ticki/klatkę 3.98 (max 4)  utracone 41.260 s  zaległość max 0.2578 s
+lab:demo                   klatka 1.28/1.95/2.50 ms (mediana/p95/p99)  krok CPU 127.562 ms  ticki/klatkę 0.01 (max 1)  utracone 52.321 s  zaległość max 0.0000 s
+lab:falling-water          klatka 1.22/1.87/2.31 ms (mediana/p95/p99)  krok CPU 206.690 ms  ticki/klatkę 0.01 (max 1)  utracone 54.631 s  zaległość max 0.0000 s
+lab:dam-break              klatka 1.19/1.86/2.31 ms (mediana/p95/p99)  krok CPU 318.444 ms  ticki/klatkę 0.00 (max 1)  utracone 56.421 s  zaległość max 0.0000 s
+lab:connected-vessels      klatka 1.21/1.86/2.31 ms (mediana/p95/p99)  krok CPU 65.720 ms  ticki/klatkę 0.02 (max 1)  utracone 45.590 s  zaległość max 0.0000 s
+lab:oil-water              klatka 1.18/1.91/2.39 ms (mediana/p95/p99)  krok CPU 81.503 ms  ticki/klatkę 0.02 (max 1)  utracone 45.601 s  zaległość max 0.0000 s
+lab:sand-pile              klatka 1.20/1.89/2.33 ms (mediana/p95/p99)  krok CPU 1.502 ms  ticki/klatkę 0.07 (max 1)  utracone 1.141 s  zaległość max 0.0000 s
+lab:sand-water             klatka 1.18/1.90/2.33 ms (mediana/p95/p99)  krok CPU 267.524 ms  ticki/klatkę 0.00 (max 1)  utracone 56.253 s  zaległość max 0.0000 s
+lab:smoke-ceiling          klatka 1.20/1.87/2.37 ms (mediana/p95/p99)  krok CPU 63.491 ms  ticki/klatkę 0.02 (max 1)  utracone 45.385 s  zaległość max 0.0000 s
+lab:smoke-vent             klatka 1.24/1.92/2.42 ms (mediana/p95/p99)  krok CPU 68.698 ms  ticki/klatkę 0.02 (max 1)  utracone 46.556 s  zaległość max 0.0000 s
+lab:wood-fire              klatka 1.19/1.83/2.32 ms (mediana/p95/p99)  krok CPU 117.426 ms  ticki/klatkę 0.01 (max 1)  utracone 51.802 s  zaległość max 0.0000 s
+lab:extinguish             klatka 1.21/1.87/2.33 ms (mediana/p95/p99)  krok CPU 359.315 ms  ticki/klatkę 0.00 (max 1)  utracone 57.036 s  zaległość max 0.0000 s
+lab:melting-metal          klatka 1.18/1.88/2.39 ms (mediana/p95/p99)  krok CPU 118.197 ms  ticki/klatkę 0.01 (max 1)  utracone 51.581 s  zaległość max 0.0000 s
+lab:quench-metal           klatka 1.22/1.84/2.29 ms (mediana/p95/p99)  krok CPU 136.278 ms  ticki/klatkę 0.01 (max 1)  utracone 52.549 s  zaległość max 0.0000 s
+lab:ice-fire               klatka 1.23/1.87/2.31 ms (mediana/p95/p99)  krok CPU 108.849 ms  ticki/klatkę 0.01 (max 1)  utracone 50.916 s  zaległość max 0.0000 s
+lab:shielded-explosion     klatka 1.20/1.88/2.35 ms (mediana/p95/p99)  krok CPU 68.631 ms  ticki/klatkę 0.02 (max 1)  utracone 46.525 s  zaległość max 0.0000 s

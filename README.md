@@ -41,6 +41,7 @@ Raporty leżą w [strefa-zero/docs/reports](https://github.com/maershal/strefa-z
 
 | Katalog | Raport w strefa-zero |
 | --- | --- |
+| `scene-benchmark-2026-11-02` | `docs/maintenance/GPU_CHECK.md`, PR #13 (benchmark scen, soak, wolny reżim) |
 | `demo-clock` | `DEMO_CLOCK.md` |
 | `legacy` | `GPU_MIGRATION.md`, `GPU_LIQUIDS.md`, `GPU_MISSION_070.md`, `PHYSICS_REVIEW_061.md`, `PERFORMANCE_AUDIT.md` |
 | `benchmarks` | `PERFORMANCE_AUDIT.md` |

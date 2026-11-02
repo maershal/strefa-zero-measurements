@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "started_utc": "2026-11-02T21:45:21.6348007+00:00",
+  "minutes": 15.0,
+  "seconds": 10,
+  "vsync": "off",
+  "slow_factor": 2.0,
+  "single_process": true,
+  "baseline": "C:\\Users\\mrmae\\Documents\\Projekty\\Windows-strefa-zero\\build\\gpu-check-2026-11-02b\\benchmark-vsync-off\\scene-benchmark.csv",
+  "scenes": [
+    "gpu:avalanche",
+    "gpu:rain",
+    "gpu:mixed",
+    "gpu:empty",
+    "gpu:water-tank",
+    "gpu:dam-break",
+    "gpu:connected-vessels",
+    "gpu:oil-water",
+    "gpu:sand-water",
+    "gpu:hourglass",
+    "gpu:inverted-oil",
+    "gpu:oil-drop",
+    "mission",
+    "thermal:fire",
+    "thermal:oil",
+    "thermal:quench",
+    "thermal:phases"
+  ],
+  "executable": "C:\\Users\\mrmae\\Documents\\Projekty\\Windows-strefa-zero\\build\\release\\StrefaQA.exe",
+  "executable_sha256": "96bcf5aca8af39844353610cc64915ea0ea41c0e5ed2c6eb5bb71d6fc30a3ab4",
+  "arguments": [
+    "--scene-benchmark",
+    "gpu:avalanche,gpu:rain,gpu:mixed,gpu:empty,gpu:water-tank,gpu:dam-break,gpu:connected-vessels,gpu:oil-water,gpu:sand-water,gpu:hourglass,gpu:inverted-oil,gpu:oil-drop,mission,thermal:fire,thermal:oil,thermal:quench,thermal:phases",
+    "--seconds",
+    "10",
+    "--vsync",
+    "off",
+    "--loop-minutes",
+    "15"
+  ],
+  "gpu": "NVIDIA GeForce GTX 1650, 610.47, 3",
+  "nvidia_smi": "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+  "power_source": "zasilacz",
+  "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "powershell": "7.6.9",
+  "telemetry_reasons_source": "clocks_event_reasons",
+  "telemetry_rows": 1529,
+  "finished_utc": "2026-11-02T22:02:41.2850641+00:00",
+  "runs": [
+    {
+      "Run": 1,
+      "Pass": null,
+      "Minute": 0.0,
+      "ExitCode": 0,
+      "TimedOut": false,
+      "Seconds": 1036.433246,
+      "Directory": "C:\\Users\\mrmae\\Documents\\Projekty\\Windows-strefa-zero\\build\\gpu-check-2026-11-02b\\soak\\run"
+    }
+  ]
+}

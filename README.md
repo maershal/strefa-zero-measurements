@@ -41,6 +41,7 @@ Raporty leżą w [strefa-zero/docs/reports](https://github.com/maershal/strefa-z
 
 | Katalog | Raport w strefa-zero |
 | --- | --- |
+| `demo-clock` | `DEMO_CLOCK.md` |
 | `legacy` | `GPU_MIGRATION.md`, `GPU_LIQUIDS.md`, `GPU_MISSION_070.md`, `PHYSICS_REVIEW_061.md`, `PERFORMANCE_AUDIT.md` |
 | `benchmarks` | `PERFORMANCE_AUDIT.md` |
 | `gpu050` | `GPU_MIGRATION.md` |

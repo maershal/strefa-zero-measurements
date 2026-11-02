@@ -1,0 +1,11 @@
+frames=180
+checks=7
+stall_seconds=5
+stall_dropped_seconds=5.36159
+speed_after_stall=0.672931
+stall_ok=1
+passed=1
+submitted_ticks=572
+world_creations=1
+renderer=D3D12 (NVIDIA GeForce GTX 1650)
+opengl=4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4

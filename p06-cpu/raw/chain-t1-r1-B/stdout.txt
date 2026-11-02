@@ -1,0 +1,2 @@
+chain: median=27.5438 p95=36.2173 p99=37.0943 max=39.0364 ms; dm=4.36557e-10 dH=5.28991e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.45843 air=15.5842 liquid=0.328794 chemistry=5.90545 other=0.000671 PCG=0 pressure=0 transport=0 checksum=3376535672489104810

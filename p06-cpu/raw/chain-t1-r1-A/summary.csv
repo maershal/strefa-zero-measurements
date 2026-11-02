@@ -1,0 +1,2 @@
+scene,ticks,median_ms,p95_ms,p99_ms,max_ms,max_mass_error,max_energy_error,max_pcg_residual,nonconverged_ticks,max_overfill,finite
+chain,240,76.6605,131.171,134.845,140.865,4.36557e-10,5.28991e-07,0,0,0,1

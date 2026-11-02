@@ -1,0 +1,2 @@
+smoke-vent: median=11.6523 p95=12.8679 p99=14.4733 max=14.6989 ms; dm=4.91127e-10 dH=5.17815e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.86525 air=6.05589 liquid=0.317219 chemistry=0.007875 other=0.000673 PCG=0 pressure=0 transport=0 checksum=4434935886420432823

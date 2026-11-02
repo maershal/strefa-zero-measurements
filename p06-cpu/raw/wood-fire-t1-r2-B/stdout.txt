@@ -1,0 +1,2 @@
+wood-fire: median=15.439 p95=28.6133 p99=54.368 max=76.7657 ms; dm=1.12595e-09 dH=3.2736e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.28619 air=11.8252 liquid=0.333786 chemistry=2.76208 other=0.000575 PCG=0 pressure=0 transport=0 checksum=9295651227640298505

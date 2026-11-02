@@ -1,0 +1,2 @@
+scene,ticks,median_ms,p95_ms,p99_ms,max_ms,max_mass_error,max_energy_error,max_pcg_residual,nonconverged_ticks,max_overfill,finite
+melting-metal,180,14.1191,16.4733,19.794,19.8943,1.10413e-09,5.29923e-07,0,0,0,1

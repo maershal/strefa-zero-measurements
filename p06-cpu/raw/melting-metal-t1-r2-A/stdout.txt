@@ -1,0 +1,2 @@
+melting-metal: median=32.6313 p95=35.4197 p99=43.013 max=44.3088 ms; dm=1.10413e-09 dH=5.29923e-07 residual=0 failed=0 overfill=0
+  last tick: heat=12.1735 air=13.8006 liquid=3.00936 chemistry=6.25268 other=0.000845 PCG=0 pressure=0 transport=0 checksum=3171154496170083892

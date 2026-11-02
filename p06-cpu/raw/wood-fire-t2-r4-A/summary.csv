@@ -1,0 +1,2 @@
+scene,ticks,median_ms,p95_ms,p99_ms,max_ms,max_mass_error,max_energy_error,max_pcg_residual,nonconverged_ticks,max_overfill,finite
+wood-fire,180,18.5843,26.2854,29.5573,32.4156,1.12595e-09,3.2736e-07,0,0,0,1

@@ -1,0 +1,32 @@
+falling-water: median=22.208 p95=41.5524 p99=60.0169 max=60.3916 ms; dm=1.71713e-09 dH=3.92552e-07 residual=9.99757e-05 failed=0 overfill=0.00472674
+  last tick: heat=9e-05 air=9e-05 liquid=35.3543 chemistry=0.01017 other=3.1986 PCG=107 pressure=23.809 transport=2.40651 checksum=6683449394396598485
+dam-break: median=32.3277 p95=40.4599 p99=60.29 max=64.4395 ms; dm=3.48518e-09 dH=2.76603e-07 residual=9.99944e-05 failed=0 overfill=9.71158e-06
+  last tick: heat=9e-05 air=0 liquid=48.8825 chemistry=0.00927 other=2.36673 PCG=118 pressure=37.7804 transport=3.00735 checksum=3226793621726737610
+connected-vessels: median=13.7203 p95=16.2127 p99=17.0249 max=17.1196 ms; dm=8.29459e-10 dH=1.66707e-06 residual=9.97608e-05 failed=0 overfill=8.84544e-06
+  last tick: heat=9.4e-05 air=9.4e-05 liquid=11.0744 chemistry=0.008752 other=2.58107 PCG=40 pressure=6.28964 transport=0.821744 checksum=16137400285518680910
+oil-water: median=8.79562 p95=9.70742 p99=10.243 max=10.3451 ms; dm=3.15049e-09 dH=6.57514e-07 residual=9.98963e-05 failed=0 overfill=1.65361e-05
+  last tick: heat=0.000188 air=9.5e-05 liquid=6.21389 chemistry=0.00734 other=2.53421 PCG=19 pressure=4.02195 transport=0.699686 checksum=14195182104061529846
+sand-pile: median=3.01143 p95=3.38898 p99=4.11841 max=4.70234 ms; dm=1.18962e-09 dH=3.61353e-07 residual=0 failed=0 overfill=0
+  last tick: heat=9.4e-05 air=9.4e-05 liquid=0.347067 chemistry=0.008846 other=2.48076 PCG=0 pressure=0 transport=0 checksum=15193272612265198434
+sand-water: median=32.1321 p95=46.2177 p99=47.0671 max=47.7137 ms; dm=3.28146e-09 dH=1.6205e-07 residual=9.99988e-05 failed=0 overfill=4.47624e-05
+  last tick: heat=0.000188 air=9.4e-05 liquid=40.6516 chemistry=0.007811 other=2.72515 PCG=167 pressure=34.8874 transport=1.39382 checksum=14917578966681445485
+smoke-ceiling: median=11.642 p95=12.4836 p99=13.5619 max=14.1615 ms; dm=4.91127e-10 dH=5.17815e-07 residual=0 failed=0 overfill=0
+  last tick: heat=6.01712 air=5.27344 liquid=0.392008 chemistry=0.008394 other=0.000676 PCG=0 pressure=0 transport=0 checksum=16741942529291412720
+smoke-vent: median=11.819 p95=12.6458 p99=13.8241 max=13.9928 ms; dm=4.91127e-10 dH=5.17815e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.82483 air=5.85069 liquid=0.385351 chemistry=0.008105 other=0.000579 PCG=0 pressure=0 transport=0 checksum=4434935886420432823
+wood-fire: median=15.2004 p95=21.1791 p99=23.2773 max=25.0203 ms; dm=1.12595e-09 dH=3.2736e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.69941 air=11.8024 liquid=0.41912 chemistry=3.04103 other=0.00058 PCG=0 pressure=0 transport=0 checksum=9295651227640298505
+extinguish: median=57.2668 p95=69.9835 p99=79.7141 max=83.6373 ms; dm=1.86265e-09 dH=2.69152e-07 residual=9.98912e-05 failed=0 overfill=0.0125681
+  last tick: heat=7.31618 air=8.09158 liquid=55.2724 chemistry=3.1253 other=0.001004 PCG=93 pressure=44.6167 transport=3.49733 checksum=2027202295400604527
+melting-metal: median=16.0456 p95=17.7372 p99=19.1291 max=19.1767 ms; dm=1.10413e-09 dH=5.29923e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.41476 air=8.06526 liquid=1.50165 chemistry=2.98935 other=0.00045 PCG=0 pressure=0 transport=0 checksum=3171154496170083892
+quench-metal: median=17.1437 p95=20.0236 p99=20.9689 max=24.3516 ms; dm=2.93949e-09 dH=2.19792e-07 residual=9.99202e-05 failed=0 overfill=1.30084e-05
+  last tick: heat=5.97087 air=8.57313 liquid=4.86981 chemistry=0.01728 other=0.00054 PCG=23 pressure=2.9565 transport=0.39195 checksum=16852698633245422557
+ice-fire: median=12.3795 p95=14.7509 p99=15.9336 max=16.2196 ms; dm=1.13687e-09 dH=4.73578e-07 residual=5.77364e-05 failed=0 overfill=0
+  last tick: heat=5.6143 air=6.93366 liquid=1.98278 chemistry=0.00755 other=0.000559 PCG=5 pressure=0.152385 transport=0.080061 checksum=11570046983315426742
+shielded-explosion: median=11.8894 p95=13.1076 p99=14.5998 max=14.7474 ms; dm=1.09321e-09 dH=4.2282e-07 residual=0 failed=0 overfill=0
+  last tick: heat=5.37589 air=7.19742 liquid=0.389118 chemistry=0.008295 other=0.000653 PCG=0 pressure=0 transport=0 checksum=407312945812276606
+chain: median=60.3578 p95=64.7393 p99=66.5485 max=71.5868 ms; dm=4.36557e-10 dH=5.28991e-07 residual=0 failed=0 overfill=0
+  last tick: heat=7.32204 air=16.4505 liquid=0.458861 chemistry=38.6915 other=0.0004 PCG=0 pressure=0 transport=0 checksum=3376535672489104810
+arena: median=4.56667 p95=13.529 p99=14.1054 max=19.4418 ms; dm=8.60382e-10 dH=2.83122e-07 residual=9.96933e-05 failed=0 overfill=1.01789e-05
+  last tick: heat=6.17378 air=5.20176 liquid=1.99124 chemistry=0.008817 other=0.000501 PCG=11 pressure=0.256081 transport=0.110407 checksum=11977981232935214553

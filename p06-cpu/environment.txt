@@ -1,0 +1,10 @@
+base=6d98c4d1cb86dc719e1c6bdc0753969c560c0a6c
+branch=bc7adad4cff06e65f0aecdab116fee0fa19a12af 2026-11-03T00:16:19+01:00
+Linux maershal 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  8
+Model name:                              Intel(R) Core(TM) i5-9300HF CPU @ 2.40GHz
+L1d cache:                               128 KiB (4 instances)
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                8 MiB (1 instance)
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+power=AC, Windows plan Zrównoważony (balanced), CPU i5-9300HF

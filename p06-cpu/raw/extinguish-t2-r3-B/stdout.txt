@@ -1,0 +1,2 @@
+extinguish: median=49.7722 p95=64.9649 p99=71.8247 max=79.9925 ms; dm=1.86265e-09 dH=2.69152e-07 residual=9.98912e-05 failed=0 overfill=0.0125681
+  last tick: heat=5.29421 air=6.19736 liquid=52.1868 chemistry=2.08258 other=0.000671 PCG=93 pressure=42.7114 transport=3.24646 checksum=2027202295400604527

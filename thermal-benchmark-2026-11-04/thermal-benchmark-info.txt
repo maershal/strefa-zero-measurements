@@ -1,0 +1,8 @@
+schema=2
+seed=11745719804495518723
+scene_order=random_per_block_splitmix64_fisher_yates
+seed_override=STREFA_BENCHMARK_SEED
+block_1_scenes=fire,quench,cold,oil
+block_2_scenes=quench,oil,fire,cold
+block_3_scenes=cold,oil,fire,quench
+result=completed

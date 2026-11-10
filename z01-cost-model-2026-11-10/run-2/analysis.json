@@ -754,38 +754,72 @@
   }
  },
  "sweep_fits": {
-  "grains:gpu_tick_median_ms": {
+  "grains:gpu_tick_median_ms:all": {
    "a_ms": 0.28789727363184064,
    "b_ms_per_1000": 0.11585219616204691,
    "r2": 0.9851619472809859,
-   "knee_n": 4000,
+   "flat_ms": 0.560624,
+   "crossover_n": 2354.0919844686073,
    "points": 6,
    "extrapolated_64k_ms": 7.880386801307747,
    "extrapolated_128k_ms": 15.472876328983652
   },
-  "grains:wall_ms_per_tick": {
+  "grains:gpu_tick_median_ms:upper": {
+   "a_ms": -0.0757520000000002,
+   "b_ms_per_1000": 0.13079842857142857,
+   "r2": 0.9980531344892525,
+   "flat_ms": 0.560624,
+   "crossover_n": 4865.318390675294,
+   "points": 3,
+   "extrapolated_64k_ms": 8.496253814857143,
+   "extrapolated_128k_ms": 17.068259629714284
+  },
+  "grains:wall_ms_per_tick:all": {
    "a_ms": 0.4908306561725041,
    "b_ms_per_1000": 0.09294042762259197,
    "r2": 0.9812810713567308,
-   "knee_n": 8000,
+   "flat_ms": 0.620379167,
+   "crossover_n": 1393.887613187667,
    "points": 4,
    "extrapolated_64k_ms": 6.581774520846691,
    "extrapolated_128k_ms": 12.672718385520879
   },
-  "water:gpu_tick_median_ms": {
+  "grains:wall_ms_per_tick:upper": {
+   "a_ms": 0.1680270899999996,
+   "b_ms_per_1000": 0.11681057250000003,
+   "r2": 1.0,
+   "flat_ms": 0.620379167,
+   "crossover_n": 3872.5268382705704,
+   "points": 2,
+   "extrapolated_64k_ms": 7.823324769360002,
+   "extrapolated_128k_ms": 15.478622448720003
+  },
+  "water:gpu_tick_median_ms:all": {
    "a_ms": 0.8744029452736329,
    "b_ms_per_1000": 0.26723794171997145,
    "r2": 0.9883041952698406,
-   "knee_n": 8000,
+   "flat_ms": 1.553448,
+   "crossover_n": 2540.9754706085587,
    "points": 6,
    "extrapolated_64k_ms": 18.388108693833683,
    "extrapolated_128k_ms": 35.90181444239373
   },
-  "water:wall_ms_per_tick": {
+  "water:gpu_tick_median_ms:upper": {
+   "a_ms": 0.16532399999999944,
+   "b_ms_per_1000": 0.29661164285714287,
+   "r2": 0.9996204132995897,
+   "flat_ms": 1.553448,
+   "crossover_n": 4679.93766741167,
+   "points": 3,
+   "extrapolated_64k_ms": 19.604064626285712,
+   "extrapolated_128k_ms": 39.042805252571426
+  },
+  "water:wall_ms_per_tick:all": {
    "a_ms": 1.4839287514534885,
    "b_ms_per_1000": 0.13565875005813952,
    "r2": 0.998577778170231,
-   "knee_n": 8000,
+   "flat_ms": 1.6373225,
+   "crossover_n": 1130.732433261926,
    "points": 3,
    "extrapolated_64k_ms": 10.37446059526372,
    "extrapolated_128k_ms": 19.26499243907395

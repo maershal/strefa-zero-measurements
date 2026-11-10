@@ -24,7 +24,10 @@ Pomiar do raportu `docs/reports/Z01_GPU_COST_MODEL.md` z
 Pliki w `run-*`: `series.csv` (każde powtórzenie serii syntetycznej), `segments.csv` (odcinki z sondami
 kalibracyjnymi i czasem UTC), `sweep.csv`, `sweep-ticks.csv`, `series-summary.csv`, `series-fit.csv`,
 `sweep-fit.csv`, `cost-model.txt`, `telemetry.csv` (nvidia-smi co 100 ms), `run-spec.json`, `run-result.json`;
-w `run-2` i `run-3` także `analysis.json` i `summary.md` z `scripts/profiling/analyze-cost-model.py`.
+w `run-2` i `run-3` także `analysis.json` i `summary.md` z `scripts/profiling/analyze-cost-model.py`
+(przeliczone analizatorem po recenzji PR maershal/strefa-zero#82: dopasowanie po wszystkich N i po N ≥ N_max/4
+oraz próg `crossover_n`). `sweep-fit.csv` pochodzi z wersji narzędzia sprzed tej poprawki: jego kolumna `knee_n`
+to a/b, a nie próg; raport korzysta z `summary.md`.
 `run-3/gpu-before-start.txt`: temperatura i P-stan GPU po 5 min bezczynności przed startem.
 
 Odtworzenie analizy: `python scripts/profiling/analyze-cost-model.py run-3`.

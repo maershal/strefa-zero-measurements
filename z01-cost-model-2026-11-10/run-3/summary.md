@@ -1,8 +1,8 @@
-Plan `full`, renderer `NVIDIA GeForce GTX 1650/PCIe/SSE2`, seed 4521618711065972830, prefix L = 512.
+Plan `full`, renderer `NVIDIA GeForce GTX 1650/PCIe/SSE2`, ziarno 4521618711065972830, przebieg wstępny L = 512.
 
-Segments: 432; GPU-qualified 432, GPU+CPU-qualified 349 (reasons: {'probe_cpu_after': 83}); segments with sw_power_cap: 113; telemetry samples: 13678; session max clock: 1935.0 MHz; cool-down waits: 2460 s in 95 segments.
+Odcinki: 432; zakwalifikowane dla GPU 432, dla GPU i CPU 349 (powody: {'probe_cpu_after': 83}); odcinki z sw_power_cap: 113; próbki telemetrii: 13678; maks. zegar sesji: 1935.0 MHz; czekanie na schłodzenie: 2460 s w 95 odcinkach.
 
-Primed samples dropped because the submission outlasted the prefix: 0.
+Odrzucone próbki primed (zlecenie trwało dłużej niż przebieg wstępny): 0.
 
 ### Koszt jednego przebiegu (µs, nachylenie a + b·M po M)
 
@@ -50,13 +50,18 @@ Primed samples dropped because the submission outlasted the prefix: 0.
 
 ### Dopasowanie a + b·N i ekstrapolacja (64k i 128k to ekstrapolacja poza pomiarem)
 
-| Materiał | Miara | punkty | a [ms] | b [ms/1000] | R² | N: +25% ponad min N | 64k [ms] | 128k [ms] |
+Próg: N, przy którym prosta przecina koszt przy najmniejszym N.
+
+| Materiał | Miara | zakres N (punkty) | a [ms] | b [ms/1000] | R² | próg N | 64k [ms] | 128k [ms] |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| grains | gpu tick median ms | 6 | 0,286 | 0,1166 | 0,983 | 8000 | 7,927 | 15,567 |
-| grains | wall ms per tick | 6 | 0,370 | 0,1180 | 0,982 | 4000 | 8,104 | 15,837 |
-| water | gpu tick median ms | 6 | 0,906 | 0,2588 | 0,990 | 8000 | 17,865 | 34,825 |
-| water | wall ms per tick | 4 | 1,427 | 0,1450 | 0,975 | 8000 | 10,928 | 20,430 |
+| ziarna | GPU | 1000–32000 (6) | 0,286 | 0,1166 | 0,983 | 2488 | 7,927 | 15,567 |
+| ziarna | GPU | 8000–32000 (3) | -0,104 | 0,1326 | 0,999 | 5127 | 8,588 | 17,280 |
+| ziarna | ścienny | 1000–32000 (6) | 0,370 | 0,1180 | 0,982 | 2329 | 8,104 | 15,837 |
+| ziarna | ścienny | 8000–32000 (3) | -0,053 | 0,1353 | 0,999 | 5159 | 8,816 | 17,686 |
+| woda | GPU | 1000–32000 (6) | 0,906 | 0,2588 | 0,990 | 2447 | 17,865 | 34,825 |
+| woda | GPU | 8000–32000 (3) | 0,300 | 0,2839 | 0,999 | 4362 | 18,908 | 37,516 |
+| woda | ścienny | 1000–8000 (4) | 1,427 | 0,1450 | 0,975 | 1317 | 10,928 | 20,430 |
 
-GPU tick with the CPU probe slow vs fast, same point (7 points): median ratio 0,992, range 0,889–1,001.
+Tick GPU przy wolnej wobec szybkiej sondzie CPU, ten sam punkt (7 punktów): mediana stosunku 0,992, zakres 0,889–1,001.
 
-Probes: CPU median 14,404 ms (min 14,113, max 25,315); GPU median 3,436 ms (min 3,423, max 3,491).
+Sondy: CPU mediana 14,404 ms (min 14,113, maks. 25,315); GPU mediana 3,436 ms (min 3,423, maks. 3,491).

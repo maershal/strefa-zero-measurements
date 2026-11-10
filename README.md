@@ -41,6 +41,7 @@ Raporty leżą w [strefa-zero/docs/reports](https://github.com/maershal/strefa-z
 
 | Katalog | Raport w strefa-zero |
 | --- | --- |
+| `z01-cost-model-2026-11-10` | `Z01_GPU_COST_MODEL.md` (model kosztu ticka GPU, GTX 1650) |
 | `thermal-benchmark-2026-11-04` | `docs/maintenance/GPU_CHECK.md`, PR #50 (benchmark termiki v2, wolny reżim) |
 | `scene-benchmark-2026-11-02` | `docs/maintenance/GPU_CHECK.md`, PR #13 (benchmark scen, soak, wolny reżim) |
 | `demo-clock` | `DEMO_CLOCK.md` |

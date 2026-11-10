@@ -1,0 +1,5669 @@
+{
+ "info": {
+  "schema": "1",
+  "plan": "full",
+  "seed": "3981597853228476150",
+  "seed_override": "STREFA_BENCHMARK_SEED",
+  "renderer": "NVIDIA GeForce GTX 1650/PCIe/SSE2",
+  "vendor": "NVIDIA Corporation",
+  "version": "4.3.0 NVIDIA 610.47",
+  "blocks": "3",
+  "repetitions": "10",
+  "cycle_entries": "1048576",
+  "prefix_threads": "32768",
+  "prefix_chain": "512",
+  "prefix_target_ms": "10",
+  "max_cooldown_s": "180",
+  "warmup_ticks": "120",
+  "measured_ticks": "240",
+  "order": "random_per_block_splitmix64_fisher_yates",
+  "probe": "cpu xorshift 2^23 median of 3; gpu chain T=4096 L=16 M=64 cold median of 5",
+  "grain_material": "1 inverse_mass=1",
+  "water_material": "5 inverse_mass=2.65",
+  "tank": "columns 300 from x=10, floor y=187, one particle per cell from the floor up",
+  "segments": "432",
+  "status": "ok"
+ },
+ "session": {
+  "telemetry_samples": 13874,
+  "session_max_mhz": 1935.0,
+  "fastest_probes": {
+   "cpu_ms": 14.2035,
+   "gpu_ms": 3.432096
+  },
+  "segments_with_power_cap": 138
+ },
+ "gpu_disqualified": [
+  "67",
+  "68",
+  "69",
+  "85",
+  "93",
+  "95",
+  "99",
+  "108",
+  "117",
+  "119",
+  "123",
+  "130",
+  "133",
+  "136",
+  "139",
+  "142",
+  "143",
+  "146",
+  "151",
+  "156",
+  "164",
+  "166",
+  "167",
+  "169",
+  "173",
+  "175",
+  "185",
+  "194",
+  "197",
+  "203",
+  "209",
+  "212",
+  "214",
+  "219",
+  "220",
+  "221",
+  "224",
+  "228",
+  "229",
+  "231",
+  "233",
+  "244",
+  "246",
+  "252",
+  "260",
+  "264",
+  "271",
+  "272",
+  "276",
+  "280",
+  "283",
+  "286",
+  "287",
+  "301",
+  "309",
+  "314",
+  "315",
+  "317",
+  "322",
+  "323",
+  "330",
+  "332",
+  "338",
+  "343",
+  "349",
+  "360",
+  "361",
+  "362",
+  "363",
+  "370",
+  "371",
+  "375",
+  "376",
+  "382",
+  "385",
+  "392",
+  "393",
+  "398",
+  "400",
+  "407",
+  "411",
+  "412",
+  "413",
+  "418",
+  "421",
+  "422",
+  "425",
+  "427",
+  "430"
+ ],
+ "cpu_disqualified": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39",
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "84",
+  "92",
+  "94",
+  "98",
+  "107",
+  "116",
+  "118",
+  "129",
+  "132",
+  "138",
+  "141",
+  "142",
+  "145",
+  "150",
+  "155",
+  "163",
+  "165",
+  "168",
+  "172",
+  "174",
+  "184",
+  "193",
+  "196",
+  "202",
+  "208",
+  "211",
+  "218",
+  "223",
+  "227",
+  "232",
+  "243",
+  "245",
+  "251",
+  "259",
+  "263",
+  "275",
+  "279",
+  "282",
+  "285",
+  "286",
+  "300",
+  "308",
+  "313",
+  "316",
+  "321",
+  "329",
+  "331",
+  "337",
+  "342",
+  "348",
+  "359",
+  "360",
+  "361",
+  "369",
+  "374",
+  "381",
+  "384",
+  "391",
+  "397",
+  "399",
+  "406",
+  "410",
+  "412",
+  "417",
+  "420",
+  "421",
+  "424",
+  "426",
+  "429"
+ ],
+ "reasons": {
+  "probe_cpu_after": 138,
+  "probe_cpu_before": 69,
+  "probe_gpu_before": 89,
+  "probe_gpu_after": 19,
+  "graphics_clock_below_session_max": 7
+ },
+ "series_fits": {
+  "chain|finish_each|32768|256": {
+   "gpu_ms": {
+    "fixed_ms": 0.4918623820058201,
+    "ms_per_pass": 6.67468479665275,
+    "r2": 0.9999985148699709,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   },
+   "wall_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   }
+  },
+  "chain|finish_each|32768|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.1645989296029171,
+    "ms_per_pass": 0.45519315049973785,
+    "r2": 0.9999860096648008,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.0815664597227439,
+    "ms_per_pass": 0.4504016790471542,
+    "r2": 0.9999986290505527,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": -0.04885007139112929,
+    "ms_per_pass": 0.4503885765150283,
+    "r2": 0.9999986857817441,
+    "points": 4
+   }
+  },
+  "chain|primed|32768|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.00868261316850294,
+    "ms_per_pass": 0.4157271764174303,
+    "r2": 0.9999993572934118,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00016941366574330563,
+    "ms_per_pass": 6.071098799630656e-06,
+    "r2": 0.9775708067160382,
+    "points": 3
+   },
+   "wall_ms": {
+    "fixed_ms": 13.08581174976915,
+    "ms_per_pass": 0.4195094413665746,
+    "r2": 0.9999999025720765,
+    "points": 3
+   }
+  },
+  "chain|cold|32768|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.07061866666667053,
+    "ms_per_pass": 0.41501185714285715,
+    "r2": 0.9999997264584548,
+    "points": 3
+   },
+   "submit_ms": {
+    "fixed_ms": 0.0008166666666666666,
+    "ms_per_pass": 1.1458333333333337e-05,
+    "r2": 1.0,
+    "points": 2
+   },
+   "wall_ms": {
+    "fixed_ms": 0.01065000000000893,
+    "ms_per_pass": 0.4168468749999998,
+    "r2": 1.0,
+    "points": 2
+   }
+  },
+  "chain|primed|32768|256": {
+   "gpu_ms": {
+    "fixed_ms": 0.8023985956550632,
+    "ms_per_pass": 6.53864799589727,
+    "r2": 0.9999981600634928,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00019333333333333342,
+    "ms_per_pass": 6.666666666666657e-06,
+    "r2": 1.0,
+    "points": 2
+   },
+   "wall_ms": {
+    "fixed_ms": 12.971003333333343,
+    "ms_per_pass": 6.562246666666666,
+    "r2": 1.0,
+    "points": 2
+   }
+  },
+  "empty|primed|64|0": {
+   "gpu_ms": {
+    "fixed_ms": -0.0011002597552820237,
+    "ms_per_pass": 0.0013881573858193711,
+    "r2": 0.9995651982741617,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.0002171212203365324,
+    "ms_per_pass": 5.434762963364601e-06,
+    "r2": 0.9985131709269259,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 13.175693835963058,
+    "ms_per_pass": 0.0019263342912396678,
+    "r2": 0.9846945985550195,
+    "points": 4
+   }
+  },
+  "chain|primed|4096|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.005831388819605543,
+    "ms_per_pass": 0.05408027761210214,
+    "r2": 0.9999967639903613,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00017580794090489384,
+    "ms_per_pass": 5.2169898430286245e-06,
+    "r2": 0.9559781388036236,
+    "points": 3
+   },
+   "wall_ms": {
+    "fixed_ms": 13.179858102493077,
+    "ms_per_pass": 0.0544330332409972,
+    "r2": 0.9999841331175139,
+    "points": 3
+   }
+  },
+  "chain|primed|256|256": {
+   "gpu_ms": {
+    "fixed_ms": -0.01239667096820618,
+    "ms_per_pass": 0.11913035811238228,
+    "r2": 0.9999966115006431,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00013080391837915026,
+    "ms_per_pass": 7.49787633971335e-06,
+    "r2": 0.9982863865836054,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 13.165975358311192,
+    "ms_per_pass": 0.11910385331381372,
+    "r2": 0.999995582050279,
+    "points": 4
+   }
+  },
+  "indirect_zero|cold|64|0": {
+   "gpu_ms": {
+    "fixed_ms": -0.01094070566972112,
+    "ms_per_pass": 0.001517919355130221,
+    "r2": 0.995836566869233,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 7.270599504780495e-05,
+    "ms_per_pass": 7.297258219017151e-06,
+    "r2": 0.999017125491328,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 0.03156049540024221,
+    "ms_per_pass": 0.0014104095501454932,
+    "r2": 0.999367186342394,
+    "points": 4
+   }
+  },
+  "chain|finish_each|256|256": {
+   "gpu_ms": {
+    "fixed_ms": -0.022511696940123116,
+    "ms_per_pass": 0.14409689848000146,
+    "r2": 0.9999778780051326,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.059454065351694396,
+    "ms_per_pass": 0.1442246485858414,
+    "r2": 0.9999807038990891,
+    "points": 3
+   },
+   "wall_ms": {
+    "fixed_ms": -0.026883290823550492,
+    "ms_per_pass": 0.1442702488238961,
+    "r2": 0.9999835251296987,
+    "points": 3
+   }
+  },
+  "chain|cold|256|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.0010993433461659041,
+    "ms_per_pass": 0.009432110900251226,
+    "r2": 0.999994561653674,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00012537005910101388,
+    "ms_per_pass": 8.897684758444938e-06,
+    "r2": 0.9993148760264129,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 0.02014777512696786,
+    "ms_per_pass": 0.010340827594932133,
+    "r2": 0.9998027963422302,
+    "points": 4
+   }
+  },
+  "chain|primed|4096|256": {
+   "gpu_ms": {
+    "fixed_ms": 0.004923153933717117,
+    "ms_per_pass": 0.8191093275497481,
+    "r2": 0.9999999431304974,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   },
+   "wall_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   }
+  },
+  "chain|finish_each|4096|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.026159289775704586,
+    "ms_per_pass": 0.08154311323175911,
+    "r2": 0.9999851211205433,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.10194387030309571,
+    "ms_per_pass": 0.08153968985522962,
+    "r2": 0.9998151535918894,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": -0.0776398615554239,
+    "ms_per_pass": 0.08170329212528693,
+    "r2": 0.9998306547060816,
+    "points": 4
+   }
+  },
+  "chain|finish_each|256|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.1787873955430248,
+    "ms_per_pass": 0.03900846760288457,
+    "r2": 0.9963872698369952,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.1403186701368182,
+    "ms_per_pass": 0.03684102279094146,
+    "r2": 0.997888797415615,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": -0.12143521390229362,
+    "ms_per_pass": 0.03689507672287589,
+    "r2": 0.9978239096520827,
+    "points": 4
+   }
+  },
+  "empty|finish_each|64|0": {
+   "gpu_ms": {
+    "fixed_ms": -0.047332964340580874,
+    "ms_per_pass": 0.02394346545211372,
+    "r2": 0.9986993569121653,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.056565823528348824,
+    "ms_per_pass": 0.02403638959677565,
+    "r2": 0.998811875343668,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": -0.03417771060384256,
+    "ms_per_pass": 0.024043800719333448,
+    "r2": 0.9989043858679572,
+    "points": 4
+   }
+  },
+  "indirect_zero|finish_each|64|0": {
+   "gpu_ms": {
+    "fixed_ms": 0.0826849213974592,
+    "ms_per_pass": 0.022783941585786838,
+    "r2": 0.9981100222693793,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.01449833333333365,
+    "ms_per_pass": 0.022865952380952376,
+    "r2": 0.9999952377437891,
+    "points": 3
+   },
+   "wall_ms": {
+    "fixed_ms": 0.0327733333333328,
+    "ms_per_pass": 0.022964761904761908,
+    "r2": 0.9999959065650514,
+    "points": 3
+   }
+  },
+  "chain|cold|4096|256": {
+   "gpu_ms": {
+    "fixed_ms": -0.08515190052233379,
+    "ms_per_pass": 0.8199577911041227,
+    "r2": 0.9999994829365569,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00026358329266749784,
+    "ms_per_pass": 2.476458999801189e-05,
+    "r2": 0.9890917571495111,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": -0.13335033436352717,
+    "ms_per_pass": 0.8203218140577273,
+    "r2": 0.9999947661930222,
+    "points": 4
+   }
+  },
+  "chain|primed|256|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.004058970883262014,
+    "ms_per_pass": 0.009585886894756819,
+    "r2": 0.9999717469306589,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00018232662798893886,
+    "ms_per_pass": 7.479802635146127e-06,
+    "r2": 0.9998976001793456,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 13.076427987131522,
+    "ms_per_pass": 0.010740320627519022,
+    "r2": 0.9925163153876327,
+    "points": 4
+   }
+  },
+  "empty|cold|64|0": {
+   "gpu_ms": {
+    "fixed_ms": -0.0036026997776934383,
+    "ms_per_pass": 0.0014610646857886461,
+    "r2": 0.9995808153280568,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00011662238609047701,
+    "ms_per_pass": 6.62762746480146e-06,
+    "r2": 0.9974080675825016,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 0.03365184622892156,
+    "ms_per_pass": 0.0015042807569267474,
+    "r2": 0.9991495492911506,
+    "points": 4
+   }
+  },
+  "chain|finish_each|4096|256": {
+   "gpu_ms": {
+    "fixed_ms": -0.14281759829383134,
+    "ms_per_pass": 0.8711660249055647,
+    "r2": 0.9999990140253163,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": -0.0399924746075726,
+    "ms_per_pass": 0.8673614496768235,
+    "r2": 0.9999991901727387,
+    "points": 3
+   },
+   "wall_ms": {
+    "fixed_ms": -0.004587996306568698,
+    "ms_per_pass": 0.867498938134811,
+    "r2": 0.9999991053659303,
+    "points": 3
+   }
+  },
+  "chain|cold|256|256": {
+   "gpu_ms": {
+    "fixed_ms": 0.025940324676026805,
+    "ms_per_pass": 0.11840218012253974,
+    "r2": 0.9999922903024104,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.0001194373655768222,
+    "ms_per_pass": 1.1490357678613385e-05,
+    "r2": 0.9994292410231618,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 0.20660148475483453,
+    "ms_per_pass": 0.11849137703555093,
+    "r2": 0.9998711272681489,
+    "points": 4
+   }
+  },
+  "indirect_zero|primed|64|0": {
+   "gpu_ms": {
+    "fixed_ms": -0.0031063585461511972,
+    "ms_per_pass": 0.0010980457987673734,
+    "r2": 0.9991233150766545,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.0001973811202082091,
+    "ms_per_pass": 6.2625386325435115e-06,
+    "r2": 0.9999860074545286,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 13.102439191020983,
+    "ms_per_pass": 0.0014780214715610293,
+    "r2": 0.9374440579716165,
+    "points": 4
+   }
+  },
+  "chain|cold|4096|16": {
+   "gpu_ms": {
+    "fixed_ms": -0.014455256086320034,
+    "ms_per_pass": 0.054560655858591336,
+    "r2": 0.9999937912257562,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": 0.00025612156373691934,
+    "ms_per_pass": 9.27452149867158e-06,
+    "r2": 0.9868783218337631,
+    "points": 4
+   },
+   "wall_ms": {
+    "fixed_ms": 0.02443625585136111,
+    "ms_per_pass": 0.05512924325398978,
+    "r2": 0.9999894077303374,
+    "points": 4
+   }
+  },
+  "chain|cold|32768|256": {
+   "gpu_ms": {
+    "fixed_ms": 0.4141621790381578,
+    "ms_per_pass": 6.542060876213196,
+    "r2": 0.9999990474380727,
+    "points": 4
+   },
+   "submit_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   },
+   "wall_ms": {
+    "fixed_ms": NaN,
+    "ms_per_pass": NaN,
+    "r2": NaN,
+    "points": 1
+   }
+  }
+ },
+ "sweep_fits": {
+  "grains:gpu_tick_median_ms": {
+   "a_ms": 0.28789727363184064,
+   "b_ms_per_1000": 0.11585219616204691,
+   "r2": 0.9851619472809859,
+   "knee_n": 4000,
+   "points": 6,
+   "extrapolated_64k_ms": 7.880386801307747,
+   "extrapolated_128k_ms": 15.472876328983652
+  },
+  "grains:wall_ms_per_tick": {
+   "a_ms": 0.4908306561725041,
+   "b_ms_per_1000": 0.09294042762259197,
+   "r2": 0.9812810713567308,
+   "knee_n": 8000,
+   "points": 4,
+   "extrapolated_64k_ms": 6.581774520846691,
+   "extrapolated_128k_ms": 12.672718385520879
+  },
+  "water:gpu_tick_median_ms": {
+   "a_ms": 0.8744029452736329,
+   "b_ms_per_1000": 0.26723794171997145,
+   "r2": 0.9883041952698406,
+   "knee_n": 8000,
+   "points": 6,
+   "extrapolated_64k_ms": 18.388108693833683,
+   "extrapolated_128k_ms": 35.90181444239373
+  },
+  "water:wall_ms_per_tick": {
+   "a_ms": 1.4839287514534885,
+   "b_ms_per_1000": 0.13565875005813952,
+   "r2": 0.998577778170231,
+   "knee_n": 8000,
+   "points": 3,
+   "extrapolated_64k_ms": 10.37446059526372,
+   "extrapolated_128k_ms": 19.26499243907395
+  }
+ },
+ "gpu_tick_ratio_cpu_slow_to_ok": [
+  1.0188912686365432
+ ],
+ "quality": {
+  "0": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 23
+  },
+  "1": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "2": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 8
+  },
+  "3": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 9
+  },
+  "4": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 71.0,
+   "telemetry_samples": 146
+  },
+  "5": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 71.0,
+   "telemetry_samples": 1
+  },
+  "6": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 72.0,
+   "telemetry_samples": 10
+  },
+  "7": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "8": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "9": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "10": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 73.0,
+   "telemetry_samples": 37
+  },
+  "11": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 73.0,
+   "telemetry_samples": 9
+  },
+  "12": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 73.0,
+   "telemetry_samples": 1
+  },
+  "13": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 73.0,
+   "telemetry_samples": 1
+  },
+  "14": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 73.0,
+   "telemetry_samples": 2
+  },
+  "15": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "16": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 71.0,
+   "telemetry_samples": 1
+  },
+  "17": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "18": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 151
+  },
+  "19": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "20": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "21": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 76.0,
+   "telemetry_samples": 1
+  },
+  "22": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 76.0,
+   "telemetry_samples": 1
+  },
+  "23": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "24": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 76.0,
+   "telemetry_samples": 4
+  },
+  "25": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 76.0,
+   "telemetry_samples": 1
+  },
+  "26": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "27": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "28": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 5
+  },
+  "29": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "30": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "31": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "32": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "33": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 10
+  },
+  "34": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "35": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "36": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "37": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "38": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "39": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "40": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "41": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "42": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "43": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 75.0,
+   "telemetry_samples": 2
+  },
+  "44": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 76.0,
+   "telemetry_samples": 5
+  },
+  "45": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "46": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 78.0,
+   "telemetry_samples": 20
+  },
+  "47": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "48": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "49": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "50": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "51": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "52": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1815.0,
+   "temperature_c_max": 78.0,
+   "telemetry_samples": 37
+  },
+  "53": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1845.0,
+   "temperature_c_max": 79.0,
+   "telemetry_samples": 21
+  },
+  "54": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "55": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 78.0,
+   "telemetry_samples": 1
+  },
+  "56": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "57": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1852.5,
+   "temperature_c_max": 78.0,
+   "telemetry_samples": 2
+  },
+  "58": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "59": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "60": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "61": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1830.0,
+   "temperature_c_max": 79.0,
+   "telemetry_samples": 9
+  },
+  "62": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "63": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "64": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 77.0,
+   "telemetry_samples": 1
+  },
+  "65": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "66": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1800.0,
+   "temperature_c_max": 80.0,
+   "telemetry_samples": 144
+  },
+  "67": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1305.0,
+   "temperature_c_max": 55.0,
+   "telemetry_samples": 1
+  },
+  "68": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after",
+    "probe_cpu_before"
+   ],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 56.0,
+   "telemetry_samples": 44
+  },
+  "69": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "70": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 8
+  },
+  "71": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "72": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "73": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 2
+  },
+  "74": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "75": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "76": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "77": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "78": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "79": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "80": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "81": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "82": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1935.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "83": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "84": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 28
+  },
+  "85": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "86": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1680.0,
+   "temperature_c_max": 57.0,
+   "telemetry_samples": 1
+  },
+  "87": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "88": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "89": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "90": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 6
+  },
+  "91": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "92": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 10
+  },
+  "93": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M1",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "94": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 15
+  },
+  "95": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M64",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "96": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "97": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "98": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 69.0,
+   "telemetry_samples": 144
+  },
+  "99": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M16",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "100": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "101": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "102": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "103": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "104": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "105": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "106": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 2
+  },
+  "107": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "108": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M64",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 300.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "109": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "110": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "111": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "112": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "113": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "114": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "115": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "116": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "117": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M1",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "118": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 35
+  },
+  "119": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 6
+  },
+  "120": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "121": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "122": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "123": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M64",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 2
+  },
+  "124": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M1",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "125": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 2
+  },
+  "126": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "127": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "128": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M64",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "129": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M16",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 8
+  },
+  "130": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M256",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1110.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 2
+  },
+  "131": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M256",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "132": {
+   "part": "sweep",
+   "label": "water:N32000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1785.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 31
+  },
+  "133": {
+   "part": "sweep",
+   "label": "grains:N8000",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 3
+  },
+  "134": {
+   "part": "sweep",
+   "label": "grains:N1000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "135": {
+   "part": "sweep",
+   "label": "water:N2000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 3
+  },
+  "136": {
+   "part": "sweep",
+   "label": "grains:N4000",
+   "block": 1,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 877.5,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 2
+  },
+  "137": {
+   "part": "sweep",
+   "label": "grains:N2000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "138": {
+   "part": "sweep",
+   "label": "water:N16000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1800.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 16
+  },
+  "139": {
+   "part": "sweep",
+   "label": "grains:N16000",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 6
+  },
+  "140": {
+   "part": "sweep",
+   "label": "water:N8000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 7
+  },
+  "141": {
+   "part": "sweep",
+   "label": "water:N1000",
+   "block": 1,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 4
+  },
+  "142": {
+   "part": "sweep",
+   "label": "grains:N32000",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1815.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 14
+  },
+  "143": {
+   "part": "sweep",
+   "label": "water:N4000",
+   "block": 1,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 4
+  },
+  "144": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "145": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 12
+  },
+  "146": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "147": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "148": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "149": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "150": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 8
+  },
+  "151": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "152": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 5
+  },
+  "153": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "154": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "155": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 28
+  },
+  "156": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "157": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "158": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "159": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "160": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "161": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "162": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "163": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 2
+  },
+  "164": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 300.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "165": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 144
+  },
+  "166": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "167": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "168": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 69.0,
+   "telemetry_samples": 145
+  },
+  "169": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "170": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "171": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "172": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "173": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 3
+  },
+  "174": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 11
+  },
+  "175": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "176": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1710.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "177": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "178": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "179": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "180": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "181": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "182": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "183": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "184": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 2
+  },
+  "185": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "186": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "187": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "188": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "189": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "190": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "191": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "192": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "193": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 36
+  },
+  "194": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 300.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "195": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "196": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 16
+  },
+  "197": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "198": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "199": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "200": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "201": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "202": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "203": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "204": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "205": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "206": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 2
+  },
+  "207": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "208": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "209": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "210": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "211": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 148
+  },
+  "212": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 17
+  },
+  "213": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "214": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M64",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "215": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 3
+  },
+  "216": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "217": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "218": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 5
+  },
+  "219": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M64",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "220": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "221": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 900.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "222": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "223": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 38
+  },
+  "224": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "225": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 6
+  },
+  "226": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "227": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "228": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "229": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 4
+  },
+  "230": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "231": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 5
+  },
+  "232": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 9
+  },
+  "233": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 57.0,
+   "telemetry_samples": 1
+  },
+  "234": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "235": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "236": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "237": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "238": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "239": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "240": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "241": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 2
+  },
+  "242": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "243": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 9
+  },
+  "244": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M1",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "245": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 145
+  },
+  "246": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "247": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "248": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "249": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "250": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "251": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 37
+  },
+  "252": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "253": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "254": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "255": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "256": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "257": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "258": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "259": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "260": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "261": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "262": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "263": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 145
+  },
+  "264": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "265": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "266": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "267": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 2
+  },
+  "268": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M1",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "269": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M16",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "270": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "271": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M256",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "272": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M16",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "273": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M256",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "274": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 2
+  },
+  "275": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M64",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 36
+  },
+  "276": {
+   "part": "sweep",
+   "label": "grains:N2000",
+   "block": 2,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 907.5,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 2
+  },
+  "277": {
+   "part": "sweep",
+   "label": "grains:N1000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "278": {
+   "part": "sweep",
+   "label": "grains:N16000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 7
+  },
+  "279": {
+   "part": "sweep",
+   "label": "water:N4000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 4
+  },
+  "280": {
+   "part": "sweep",
+   "label": "water:N8000",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 8
+  },
+  "281": {
+   "part": "sweep",
+   "label": "water:N1000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 4
+  },
+  "282": {
+   "part": "sweep",
+   "label": "grains:N32000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1815.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 13
+  },
+  "283": {
+   "part": "sweep",
+   "label": "water:N2000",
+   "block": 2,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1657.5,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 4
+  },
+  "284": {
+   "part": "sweep",
+   "label": "grains:N8000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 3
+  },
+  "285": {
+   "part": "sweep",
+   "label": "water:N16000",
+   "block": 2,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1785.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 16
+  },
+  "286": {
+   "part": "sweep",
+   "label": "water:N32000",
+   "block": 2,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1770.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 30
+  },
+  "287": {
+   "part": "sweep",
+   "label": "grains:N4000",
+   "block": 2,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 360.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 3
+  },
+  "288": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "289": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "290": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "291": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "292": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "293": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "294": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "295": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "296": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "297": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "298": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "299": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "300": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 9
+  },
+  "301": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 3
+  },
+  "302": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "303": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "304": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "305": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "306": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "307": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "308": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 151
+  },
+  "309": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 3
+  },
+  "310": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "311": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "312": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "313": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 3
+  },
+  "314": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "315": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "316": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 146
+  },
+  "317": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M256",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "318": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "319": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "320": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "321": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 10
+  },
+  "322": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "323": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 3
+  },
+  "324": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "325": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "326": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 2
+  },
+  "327": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "328": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "329": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 18
+  },
+  "330": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M256",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "331": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 146
+  },
+  "332": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 300.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "333": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1620.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "334": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1635.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "335": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "336": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 2
+  },
+  "337": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 10
+  },
+  "338": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "339": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "340": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 1
+  },
+  "341": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "342": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 10
+  },
+  "343": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "344": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "345": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "346": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "347": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 9
+  },
+  "348": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 8
+  },
+  "349": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "350": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "351": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "352": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "353": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "354": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "355": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "356": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "357": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  },
+  "358": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "359": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 10
+  },
+  "360": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M256",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1882.5,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 146
+  },
+  "361": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 37
+  },
+  "362": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "363": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "364": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "365": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 1
+  },
+  "366": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 8
+  },
+  "367": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "368": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "369": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 9
+  },
+  "370": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "371": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "372": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "373": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "374": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 13
+  },
+  "375": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L16:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "376": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "377": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L16:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "378": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 6
+  },
+  "379": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 1
+  },
+  "380": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 1
+  },
+  "381": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 9
+  },
+  "382": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L16:M256",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "383": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T4096:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "384": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1875.0,
+   "temperature_c_max": 70.0,
+   "telemetry_samples": 149
+  },
+  "385": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "386": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "387": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:primed:T64:L0:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "388": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "389": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 2
+  },
+  "390": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L16:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "391": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 2
+  },
+  "392": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "393": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "394": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1560.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "395": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M16",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "396": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 7
+  },
+  "397": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "398": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T4096:L256:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "399": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 36
+  },
+  "400": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T32768:L16:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 2
+  },
+  "401": {
+   "part": "synthetic",
+   "label": "series:chain:primed:T256:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "402": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T256:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "403": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "404": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T4096:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 3
+  },
+  "405": {
+   "part": "synthetic",
+   "label": "series:empty:cold:T64:L0:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "406": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1890.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 36
+  },
+  "407": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T32768:L16:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 300.0,
+   "temperature_c_max": 58.0,
+   "telemetry_samples": 1
+  },
+  "408": {
+   "part": "synthetic",
+   "label": "fused_wide:chain:cold:T256:L16:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "409": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T32768:L16:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1912.5,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 2
+  },
+  "410": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T32768:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 37
+  },
+  "411": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:cold:T64:L0:M16",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "412": {
+   "part": "synthetic",
+   "label": "series:chain:finish_each:T32768:L256:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 33
+  },
+  "413": {
+   "part": "synthetic",
+   "label": "series:empty:primed:T64:L0:M64",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "414": {
+   "part": "synthetic",
+   "label": "series:indirect_zero:finish_each:T64:L0:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "415": {
+   "part": "synthetic",
+   "label": "series:empty:finish_each:T64:L0:M1",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "416": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T256:L256:M64",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "417": {
+   "part": "synthetic",
+   "label": "fused_chain:chain:cold:T4096:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 12
+  },
+  "418": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T4096:L16:M1",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_after",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": null,
+   "temperature_c_max": null,
+   "telemetry_samples": 0
+  },
+  "419": {
+   "part": "synthetic",
+   "label": "series:chain:cold:T256:L256:M256",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 1
+  },
+  "420": {
+   "part": "sweep",
+   "label": "grains:N32000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1815.0,
+   "temperature_c_max": 65.0,
+   "telemetry_samples": 13
+  },
+  "421": {
+   "part": "sweep",
+   "label": "grains:N16000",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1860.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 7
+  },
+  "422": {
+   "part": "sweep",
+   "label": "water:N1000",
+   "block": 3,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1657.5,
+   "temperature_c_max": 60.0,
+   "telemetry_samples": 4
+  },
+  "423": {
+   "part": "sweep",
+   "label": "grains:N1000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 2
+  },
+  "424": {
+   "part": "sweep",
+   "label": "water:N4000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 63.0,
+   "telemetry_samples": 3
+  },
+  "425": {
+   "part": "sweep",
+   "label": "water:N16000",
+   "block": 3,
+   "gpu": [
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1785.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 16
+  },
+  "426": {
+   "part": "sweep",
+   "label": "water:N32000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1755.0,
+   "temperature_c_max": 66.0,
+   "telemetry_samples": 31
+  },
+  "427": {
+   "part": "sweep",
+   "label": "grains:N8000",
+   "block": 3,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1395.0,
+   "temperature_c_max": 59.0,
+   "telemetry_samples": 3
+  },
+  "428": {
+   "part": "sweep",
+   "label": "water:N8000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1905.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 7
+  },
+  "429": {
+   "part": "sweep",
+   "label": "grains:N4000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [
+    "probe_cpu_after"
+   ],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 64.0,
+   "telemetry_samples": 3
+  },
+  "430": {
+   "part": "sweep",
+   "label": "water:N2000",
+   "block": 3,
+   "gpu": [
+    "graphics_clock_below_session_max",
+    "probe_gpu_before"
+   ],
+   "cpu": [],
+   "graphics_mhz_median": 1657.5,
+   "temperature_c_max": 61.0,
+   "telemetry_samples": 4
+  },
+  "431": {
+   "part": "sweep",
+   "label": "grains:N2000",
+   "block": 3,
+   "gpu": [],
+   "cpu": [],
+   "graphics_mhz_median": 1920.0,
+   "temperature_c_max": 62.0,
+   "telemetry_samples": 1
+  }
+ },
+ "primed_unclean": 0
+}

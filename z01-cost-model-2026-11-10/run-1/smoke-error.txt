@@ -1,0 +1,1 @@
+Model kosztu ticka: Pomiar zgubił ponad 10% czasów GPU ticka

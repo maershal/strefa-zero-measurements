@@ -1,0 +1,23 @@
+schema=1
+plan=full
+seed=4521618711065972830
+seed_override=STREFA_BENCHMARK_SEED
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2
+vendor=NVIDIA Corporation
+version=4.3.0 NVIDIA 610.47
+blocks=3
+repetitions=10
+cycle_entries=1048576
+prefix_threads=32768
+prefix_chain=512
+prefix_target_ms=10
+max_cooldown_s=180
+warmup_ticks=120
+measured_ticks=240
+order=random_per_block_splitmix64_fisher_yates
+probe=cpu xorshift 2^23 median of 3; gpu chain T=4096 L=16 M=64 cold median of 5
+grain_material=1 inverse_mass=1
+water_material=5 inverse_mass=2.65
+tank=columns 300 from x=10, floor y=187, one particle per cell from the floor up
+segments=432
+status=ok

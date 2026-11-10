@@ -1,0 +1,17 @@
+{
+  "stage": "Z01",
+  "executable": "C:\\Users\\mrmae\\Documents\\Projekty\\Windows-strefa-zero\\build\\release\\StrefaQA.exe",
+  "sha256": "8ea6983f48ffcae13821a293f4a1497db050be55e8d79efe97e32d96ab5f886c",
+  "flags": [
+    "--gpu-check",
+    "cost-model"
+  ],
+  "plan": "full",
+  "threaded_optimization": "auto",
+  "seed": null,
+  "started_utc": "2026-11-10T11:42:44.3958808Z",
+  "gpu_at_start": "NVIDIA GeForce GTX 1650, 610.47, 51, 300 MHz, 5.84 W",
+  "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)",
+  "on_ac_power": true,
+  "battery_percent": 94
+}

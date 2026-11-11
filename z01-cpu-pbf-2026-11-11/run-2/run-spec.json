@@ -1,0 +1,33 @@
+{
+  "tool": "StrefaPbfCpuBench (experiments/pbf_cpu_bench.cpp, target strefa_pbf_cpu_bench)",
+  "source_commit": "d7fb070",
+  "source_note": "binary built from the working tree that became d7fb070; the commit differs only by clang-format whitespace",
+  "command": "StrefaPbfCpuBench.exe --out <dir>",
+  "plan": {
+    "n": [250, 500, 1000, 2000, 4000, 8000, 16000, 32000],
+    "threads": [1, 2, 4],
+    "blocks": 5,
+    "order": "ABBA: even blocks forward, odd blocks reversed",
+    "seconds_per_segment": 1.0,
+    "warmup": "max(5 ticks, 0.2 s)",
+    "min_ticks_per_segment": 20,
+    "tick": "2 substeps x (counting sort + 8 x (density pass, correction pass)) = 16 + 16 passes + 2 sorts",
+    "turbo_tolerance": 1.10
+  },
+  "build": {
+    "compiler": "MSVC 19.51.36256 x64",
+    "configuration": "Release",
+    "flags": "/O2 /Ob2 /DNDEBUG /W4 /permissive- /utf-8 /Zc:__cplusplus /fp:precise /WX",
+    "cmake": "--preset core-only -DCMAKE_BUILD_TYPE=Release -DSTREFA_WARNINGS_AS_ERRORS=ON -DSTREFA_EXPERIMENT_PBF_CPU=ON"
+  },
+  "machine": {
+    "cpu": "Intel Core i5-9300HF @ 2.40 GHz (4 cores, 8 threads)",
+    "os": "Windows 11 Home 10.0.26200",
+    "power": "AC adapter (Win32_Battery BatteryStatus 2, 100%), plan Zrownowazony (balanced)",
+    "gpu_load": "none (GPU idle; browser and other desktop applications open)"
+  },
+  "start": "2026-11-11T14:29:44+01:00",
+  "end": "2026-11-11T14:34:19+01:00",
+  "fastest_probe_us": 97.8,
+  "checksums_equal_across_threads": true
+}

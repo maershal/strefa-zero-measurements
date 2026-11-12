@@ -1,0 +1,10 @@
+{
+  "seed": "1",
+  "samples": 46080,
+  "segments": 192,
+  "performance_accepted": false,
+  "qualified_full_gates": 24,
+  "worst_hot_additional_ms": 10.916872,
+  "worst_cold_additional_ms": 9.332528,
+  "disqualified_segments": []
+}

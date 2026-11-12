@@ -1,0 +1,23 @@
+{
+  "seed": "1",
+  "samples": 46080,
+  "segments": 192,
+  "performance_accepted": false,
+  "qualified_full_gates": 18,
+  "worst_hot_additional_ms": 11.219952,
+  "worst_cold_additional_ms": 9.12776,
+  "disqualified_segments": [
+    [
+      "cold",
+      1
+    ],
+    [
+      "oil",
+      1
+    ],
+    [
+      "quench",
+      1
+    ]
+  ]
+}

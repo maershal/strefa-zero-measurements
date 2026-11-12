@@ -1,0 +1,62 @@
+callback_available=1
+messages=42
+dropped=0
+started_sdl_ns=2394692800
+phase_semantics=callback_receipt; asynchronous delivery may describe earlier work
+phase_initialization_messages=0
+phase_initialization_id131186=0
+phase_initialization_dropped=0
+phase_runtime_messages=0
+phase_runtime_id131186=0
+phase_runtime_dropped=0
+phase_capture_messages=0
+phase_capture_id131186=0
+phase_capture_dropped=0
+phase_validation_messages=42
+phase_validation_id131186=0
+phase_validation_dropped=0
+phase_shutdown_messages=0
+phase_shutdown_id131186=0
+phase_shutdown_dropped=0
+source=33350 type=33360 id=131218 severity=37191 received_ms=3764.71 phase=validation Program/shader state performance warning: Vertex shader in program 13 is being recompiled based on GL state.
+source=33350 type=33360 id=131218 severity=37191 received_ms=3819.75 phase=validation Program/shader state performance warning: Vertex shader in program 95 is being recompiled based on GL state.
+source=33350 type=33360 id=131154 severity=37191 received_ms=3842.24 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=3864.92 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=6843.44 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=23492.1 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=81284.9 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=120487 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=120501 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=123702 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=145941 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=171350 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=209392 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=209402 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=211787 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=224998 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=241311 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=252839 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=252843 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=256203 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=270679 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=285361 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=298564 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=298566 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=300449 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=308763 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=317474 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=325647 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=325648 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=327246 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=336270 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=345765 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=354739 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=354740 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=356320 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=365217 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=374678 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=382536 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=382537 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=386644 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=411327 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.
+source=33350 type=33360 id=131154 severity=37191 received_ms=437381 phase=validation Pixel-path performance warning: Pixel transfer is synchronized with 3D rendering.

@@ -1,0 +1,13 @@
+run=1 variant=A exit=0 probe_after_ms=280 2026-11-13T22:39:52.0848980+01:00
+run=2 variant=B exit=0 probe_after_ms=288.6 2026-11-13T22:43:04.5435796+01:00
+run=3 variant=B exit=0 probe_after_ms=263.1 2026-11-13T22:46:17.0842254+01:00
+run=4 variant=A exit=0 probe_after_ms=257.5 2026-11-13T22:49:29.3166505+01:00
+run=5 variant=A exit=0 probe_after_ms=266.3 2026-11-13T22:52:41.5496098+01:00
+run=6 variant=B exit=0 probe_after_ms=254.6 2026-11-13T22:55:53.8141766+01:00
+run=7 variant=B exit=0 probe_after_ms=254.9 2026-11-13T22:59:06.0653028+01:00
+run=8 variant=A exit=0 probe_after_ms=259.5 2026-11-13T23:02:18.2606201+01:00
+run=9 variant=A exit=0 probe_after_ms=257.9 2026-11-13T23:05:30.4689590+01:00
+run=10 variant=B exit=0 probe_after_ms=274.6 2026-11-13T23:08:42.8042134+01:00
+run=11 variant=B exit=0 probe_after_ms=256.8 2026-11-13T23:11:55.0860236+01:00
+run=12 variant=A exit=0 probe_after_ms=256.2 2026-11-13T23:15:07.3669551+01:00
+done

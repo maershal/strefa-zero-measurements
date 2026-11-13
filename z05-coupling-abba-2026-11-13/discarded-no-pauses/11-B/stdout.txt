@@ -1,0 +1,2 @@
+mission                    klatka 57.06/66.83/69.07 ms (mediana/p95/p99)  fizyka 13.490  prezentacja 0.168  render 0.692 ms  GPU 1647.3 ms/s symulacji  budżet 60 FPS 169%  ticki/klatkę 4.00 (max 4)  utracone 23.958 s  zaległość max 0.2583 s
+exit=0

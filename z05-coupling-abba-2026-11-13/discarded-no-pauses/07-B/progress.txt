@@ -1,0 +1,8 @@
+state=zakończony
+scenario=none
+elapsed_s=72.0498
+frames=1252
+ticks=968
+screen=6
+stage=klatka 1252
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2

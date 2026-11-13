@@ -41,6 +41,7 @@ Raporty leżą w [strefa-zero/docs/reports](https://github.com/maershal/strefa-z
 
 | Katalog | Raport w strefa-zero |
 | --- | --- |
+| `z05-coupling-abba-2026-11-13` | PR #90 (jeden przebieg sprzężenia postaci na redukcję, ABBA misji, GTX 1650) |
 | `z01-cpu-pbf-2026-11-11` | `Z01_GPU_COST_MODEL.md`, sekcja 5 (mikrobenchmark CPU dwóch przebiegów PBF, i5-9300HF) |
 | `z01-cost-model-2026-11-10` | `Z01_GPU_COST_MODEL.md` (model kosztu ticka GPU, GTX 1650) |
 | `thermal-benchmark-2026-11-04` | `docs/maintenance/GPU_CHECK.md`, PR #50 (benchmark termiki v2, wolny reżim) |

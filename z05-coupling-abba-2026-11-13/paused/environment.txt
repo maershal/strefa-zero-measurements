@@ -1,0 +1,8 @@
+a=dbe068f b=196cd0e pause_s=120 probe=sha256_64MiB_min_of_3 probe_tolerance=1.15
+ac_power=True discharging=False
+power_plan=Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)
+gpu=NVIDIA GeForce GTX 1650, 610.47
+idle_start_temperature_c=53
+start=2026-11-13T22:33:38.3832695+01:00
+idle_end_temperature_c=56 probe_best_ms=159.6
+end=2026-11-13T23:15:07.3686402+01:00

@@ -1,0 +1,12 @@
+run=1 variant=A probe_ms=166.3 best_ms=159.6 extra_wait_s=0 gpu_c=56
+run=2 variant=B probe_ms=161.5 best_ms=159.6 extra_wait_s=0 gpu_c=58
+run=3 variant=B probe_ms=159.7 best_ms=159.6 extra_wait_s=0 gpu_c=57
+run=4 variant=A probe_ms=150.1 best_ms=150.1 extra_wait_s=0 gpu_c=54
+run=5 variant=A probe_ms=150 best_ms=150 extra_wait_s=0 gpu_c=53
+run=6 variant=B probe_ms=161 best_ms=150 extra_wait_s=0 gpu_c=52
+run=7 variant=B probe_ms=152.7 best_ms=150 extra_wait_s=0 gpu_c=53
+run=8 variant=A probe_ms=149.6 best_ms=149.6 extra_wait_s=0 gpu_c=52
+run=9 variant=A probe_ms=149.2 best_ms=149.2 extra_wait_s=0 gpu_c=54
+run=10 variant=B probe_ms=149.5 best_ms=149.2 extra_wait_s=0 gpu_c=53
+run=11 variant=B probe_ms=163.2 best_ms=149.2 extra_wait_s=0 gpu_c=52
+run=12 variant=A probe_ms=150.2 best_ms=149.2 extra_wait_s=0 gpu_c=52

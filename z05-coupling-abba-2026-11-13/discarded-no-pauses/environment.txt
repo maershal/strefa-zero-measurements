@@ -1,0 +1,8 @@
+a=dbe068f b=196cd0e
+ac_power=True discharging=False
+power_plan=Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)
+gpu=NVIDIA GeForce GTX 1650, 610.47
+idle_start_temperature_c=59
+start=2026-11-13T22:09:56.8549587+01:00
+idle_end_temperature_c=49
+end=2026-11-13T22:29:26.1997261+01:00

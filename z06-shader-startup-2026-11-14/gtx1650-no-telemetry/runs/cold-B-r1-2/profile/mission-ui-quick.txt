@@ -1,0 +1,11 @@
+frames=180
+checks=7
+stall_seconds=5
+stall_dropped_seconds=4.96883
+speed_after_stall=0.825756
+stall_ok=1
+passed=1
+submitted_ticks=319
+world_creations=1
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2
+opengl=4.3.0 NVIDIA 610.47

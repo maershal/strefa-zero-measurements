@@ -1,0 +1,8 @@
+state=zakończony
+scenario=mission_quick
+elapsed_s=19.4505
+frames=180
+ticks=337
+screen=6
+stage=kontrola 7/7
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2

@@ -1,0 +1,10 @@
+GPU przed pierwszym przebiegiem (po 300 s bezczynności): 54 °C; telemetria: 5312 próbek co 100 ms
+Przebiegi zdyskwalifikowane (hw_* albo sw_thermal_slowdown): 0 z 36
+Przebiegi z sw_power_cap (tylko raportowane): 0 z 36
+Mediana (min–max) bez przebiegów zdyskwalifikowanych; A = baseline, B = candidate:
+  binary, A, 6 przebiegów: first_world_ms=333,3 (323,6–399,3) compile_ms=0 (0–0)
+  binary, B, 6 przebiegów: first_world_ms=368,7 (344,2–463,2) compile_ms=0 (0–0) progress_gap_ms=17,1 (3,4–80,3) progress_frames=1 (1–2)
+  cold, A, 6 przebiegów: first_world_ms=10739,5 (10540,7–10889,3) compile_ms=10556,2 (10362,8–10595,4)
+  cold, B, 6 przebiegów: first_world_ms=4938 (4796,9–5483,3) compile_ms=4707,7 (4654–5190,6) progress_gap_ms=485,4 (440,8–502) progress_frames=33 (32–37)
+  driver, A, 6 przebiegów: first_world_ms=135,7 (132,5–173,3) compile_ms=31,1 (29,9–34,5)
+  driver, B, 6 przebiegów: first_world_ms=135,7 (131–136) compile_ms=33,4 (32,8–35,1) progress_gap_ms=34,1 (3,3–53,6) progress_frames=1 (1–1)

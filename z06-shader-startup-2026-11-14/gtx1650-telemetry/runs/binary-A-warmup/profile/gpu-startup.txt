@@ -1,0 +1,15 @@
+world_creations=1
+programs=69
+source_builds=68
+cache_hits=1
+cache_misses=68
+cache_rejected=0
+cache_write_failures=0
+cache_supported=1
+compile_ms=10672.4
+cache_load_ms=9.1231
+first_world_ms=11162
+view_switches=3
+view_switch_total_ms=0.0525
+view_switch_max_ms=0.0207
+cpu_laboratory_created=0

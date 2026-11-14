@@ -1,0 +1,49 @@
+Bezczynność 300 s przed pierwszym przebiegiem (GPU 59 °C)...
+cold   A r1-0: first_world_ms=10889.3 compile_ms=10543.6 progress_gap_ms= exit=0 temp=54
+cold   B r1-1: first_world_ms=5088.06 compile_ms=4813.18 progress_gap_ms=483.741 exit=0 temp=56
+cold   B r1-2: first_world_ms=5483.31 compile_ms=5190.55 progress_gap_ms=440.799 exit=0 temp=57
+cold   A r1-3: first_world_ms=10740.1 compile_ms=10568.7 progress_gap_ms= exit=0 temp=57
+cold   B r2-0: first_world_ms=4796.9 compile_ms=4653.98 progress_gap_ms=486.96 exit=0 temp=57
+cold   A r2-1: first_world_ms=10752.8 compile_ms=10587.8 progress_gap_ms= exit=0 temp=57
+cold   A r2-2: first_world_ms=10540.7 compile_ms=10362.8 progress_gap_ms= exit=0 temp=57
+cold   B r2-3: first_world_ms=4927.63 compile_ms=4697.63 progress_gap_ms=490.441 exit=0 temp=57
+cold   A r3-0: first_world_ms=10738.9 compile_ms=10595.4 progress_gap_ms= exit=0 temp=57
+cold   B r3-1: first_world_ms=4913.71 compile_ms=4700.07 progress_gap_ms=501.982 exit=0 temp=57
+cold   B r3-2: first_world_ms=4948.28 compile_ms=4715.42 progress_gap_ms=482.288 exit=0 temp=57
+cold   A r3-3: first_world_ms=10650 compile_ms=10538.4 progress_gap_ms= exit=0 temp=57
+driver A r1-0: first_world_ms=135.006 compile_ms=31.598 progress_gap_ms= exit=0 temp=57
+driver B r1-1: first_world_ms=134.307 compile_ms=34.4406 progress_gap_ms=47.0984 exit=0 temp=57
+driver B r1-2: first_world_ms=135.584 compile_ms=35.1106 progress_gap_ms=3.2835 exit=0 temp=57
+driver A r1-3: first_world_ms=132.456 compile_ms=29.9445 progress_gap_ms= exit=0 temp=57
+driver B r2-0: first_world_ms=136.009 compile_ms=33.6899 progress_gap_ms=53.6408 exit=0 temp=57
+driver A r2-1: first_world_ms=133.286 compile_ms=30.9387 progress_gap_ms= exit=0 temp=57
+driver A r2-2: first_world_ms=173.269 compile_ms=31.2411 progress_gap_ms= exit=0 temp=57
+driver B r2-3: first_world_ms=131.031 compile_ms=33.0943 progress_gap_ms=3.3508 exit=0 temp=57
+driver A r3-0: first_world_ms=141.371 compile_ms=30.9721 progress_gap_ms= exit=0 temp=57
+driver B r3-1: first_world_ms=135.757 compile_ms=33.1601 progress_gap_ms=21.1463 exit=0 temp=57
+driver B r3-2: first_world_ms=135.786 compile_ms=32.8405 progress_gap_ms=53.6268 exit=0 temp=57
+driver A r3-3: first_world_ms=136.303 compile_ms=34.4951 progress_gap_ms= exit=0 temp=57
+binary A r1-0: first_world_ms=329.113 compile_ms=0 progress_gap_ms= exit=0 temp=57
+binary B r1-1: first_world_ms=346.706 compile_ms=0 progress_gap_ms=30.5448 exit=0 temp=57
+binary B r1-2: first_world_ms=463.213 compile_ms=0 progress_gap_ms=75.3667 exit=0 temp=57
+binary A r1-3: first_world_ms=348.024 compile_ms=0 progress_gap_ms= exit=0 temp=57
+binary B r2-0: first_world_ms=344.248 compile_ms=0 progress_gap_ms=3.4316 exit=0 temp=57
+binary A r2-1: first_world_ms=337.48 compile_ms=0 progress_gap_ms= exit=0 temp=58
+binary A r2-2: first_world_ms=324.596 compile_ms=0 progress_gap_ms= exit=0 temp=57
+binary B r2-3: first_world_ms=408.255 compile_ms=0 progress_gap_ms=80.2936 exit=0 temp=57
+binary A r3-0: first_world_ms=323.555 compile_ms=0 progress_gap_ms= exit=0 temp=57
+binary B r3-1: first_world_ms=352.198 compile_ms=0 progress_gap_ms=3.5073 exit=0 temp=57
+binary B r3-2: first_world_ms=385.155 compile_ms=0 progress_gap_ms=3.582 exit=0 temp=57
+binary A r3-3: first_world_ms=399.337 compile_ms=0 progress_gap_ms= exit=0 temp=58
+OSTRZEŻENIE: Parametr „NoTypeInformation” jest przestarzały. This parameter is obsolete and has no effect. The default behavior is to not include type information. Use -IncludeTypeInformation to include type information.
+GPU przed pierwszym przebiegiem (po 300 s bezczynności): 54 °C; telemetria: 5312 próbek co 100 ms
+Przebiegi zdyskwalifikowane (hw_* albo sw_thermal_slowdown): 0 z 36
+Przebiegi z sw_power_cap (tylko raportowane): 0 z 36
+Mediana (min–max) bez przebiegów zdyskwalifikowanych; A = baseline, B = candidate:
+  binary, A, 6 przebiegów: first_world_ms=333,3 (323,6–399,3) compile_ms=0 (0–0)
+  binary, B, 6 przebiegów: first_world_ms=368,7 (344,2–463,2) compile_ms=0 (0–0) progress_gap_ms=17,1 (3,4–80,3) progress_frames=1 (1–2)
+  cold, A, 6 przebiegów: first_world_ms=10739,5 (10540,7–10889,3) compile_ms=10556,2 (10362,8–10595,4)
+  cold, B, 6 przebiegów: first_world_ms=4938 (4796,9–5483,3) compile_ms=4707,7 (4654–5190,6) progress_gap_ms=485,4 (440,8–502) progress_frames=33 (32–37)
+  driver, A, 6 przebiegów: first_world_ms=135,7 (132,5–173,3) compile_ms=31,1 (29,9–34,5)
+  driver, B, 6 przebiegów: first_world_ms=135,7 (131–136) compile_ms=33,4 (32,8–35,1) progress_gap_ms=34,1 (3,3–53,6) progress_frames=1 (1–1)
+CSV: shader-startup.csv

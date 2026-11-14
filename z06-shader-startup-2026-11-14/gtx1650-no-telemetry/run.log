@@ -1,0 +1,45 @@
+cold   A r1-0: first_world_ms=10497.6 compile_ms=10417.9 submit_ms= exit=0
+cold   B r1-1: first_world_ms=4643.84 compile_ms=4530.14 submit_ms=353.928 exit=0
+cold   B r1-2: first_world_ms=4690.06 compile_ms=4580.47 submit_ms=366.081 exit=0
+cold   A r1-3: first_world_ms=10488 compile_ms=10408.6 submit_ms= exit=0
+cold   B r2-0: first_world_ms=4657.02 compile_ms=4548.47 submit_ms=370.03 exit=0
+cold   A r2-1: first_world_ms=10452 compile_ms=10372.6 submit_ms= exit=0
+cold   A r2-2: first_world_ms=10355 compile_ms=10272.3 submit_ms= exit=0
+cold   B r2-3: first_world_ms=4681.48 compile_ms=4572.97 submit_ms=352.228 exit=0
+cold   A r3-0: first_world_ms=10460.4 compile_ms=10381.9 submit_ms= exit=0
+cold   B r3-1: first_world_ms=4694.62 compile_ms=4582.44 submit_ms=376.68 exit=0
+cold   B r3-2: first_world_ms=4726.19 compile_ms=4612.73 submit_ms=375.499 exit=0
+cold   A r3-3: first_world_ms=10460.1 compile_ms=10380.8 submit_ms= exit=0
+driver A r1-0: first_world_ms=80.9578 compile_ms=30.431 submit_ms= exit=0
+driver B r1-1: first_world_ms=84.6099 compile_ms=33.1512 submit_ms=32.1443 exit=0
+driver B r1-2: first_world_ms=82.1711 compile_ms=31.4081 submit_ms=30.452 exit=0
+driver A r1-3: first_world_ms=83.8124 compile_ms=31.4963 submit_ms= exit=0
+driver B r2-0: first_world_ms=85.1757 compile_ms=33.8791 submit_ms=32.7957 exit=0
+driver A r2-1: first_world_ms=80.7992 compile_ms=29.7505 submit_ms= exit=0
+driver A r2-2: first_world_ms=83.2502 compile_ms=30.879 submit_ms= exit=0
+driver B r2-3: first_world_ms=84.935 compile_ms=33.4908 submit_ms=32.4504 exit=0
+driver A r3-0: first_world_ms=84.2599 compile_ms=30.7966 submit_ms= exit=0
+driver B r3-1: first_world_ms=81.0735 compile_ms=32.4036 submit_ms=31.5164 exit=0
+driver B r3-2: first_world_ms=86.1138 compile_ms=33.9968 submit_ms=32.9229 exit=0
+driver A r3-3: first_world_ms=80.9208 compile_ms=30.4232 submit_ms= exit=0
+binary A r1-0: first_world_ms=267.435 compile_ms=0 submit_ms= exit=0
+binary B r1-1: first_world_ms=261.077 compile_ms=0 submit_ms=0 exit=0
+binary B r1-2: first_world_ms=272.95 compile_ms=0 submit_ms=0 exit=0
+binary A r1-3: first_world_ms=258.905 compile_ms=0 submit_ms= exit=0
+binary B r2-0: first_world_ms=270.072 compile_ms=0 submit_ms=0 exit=0
+binary A r2-1: first_world_ms=259.521 compile_ms=0 submit_ms= exit=0
+binary A r2-2: first_world_ms=257.261 compile_ms=0 submit_ms= exit=0
+binary B r2-3: first_world_ms=259.336 compile_ms=0 submit_ms=0 exit=0
+binary A r3-0: first_world_ms=254.898 compile_ms=0 submit_ms= exit=0
+binary B r3-1: first_world_ms=275.969 compile_ms=0 submit_ms=0 exit=0
+binary B r3-2: first_world_ms=258.024 compile_ms=0 submit_ms=0 exit=0
+binary A r3-3: first_world_ms=263.958 compile_ms=0 submit_ms= exit=0
+OSTRZEŻENIE: Parametr „NoTypeInformation” jest przestarzały. This parameter is obsolete and has no effect. The default behavior is to not include type information. Use -IncludeTypeInformation to include type information.
+Median first_world_ms per mode and build (A = baseline, B = candidate):
+  binary, A: 258,905 ms (6 runs)
+  binary, B: 261,077 ms (6 runs)
+  cold, A: 10460,1 ms (6 runs)
+  cold, B: 4681,48 ms (6 runs)
+  driver, A: 80,9578 ms (6 runs)
+  driver, B: 84,6099 ms (6 runs)
+CSV: shader-startup.csv

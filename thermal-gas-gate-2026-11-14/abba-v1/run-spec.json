@@ -1,0 +1,16 @@
+{
+  "stage": "thermal-gate",
+  "executable": "<repo>\\build\\release\\StrefaQA.exe",
+  "sha256": "eb015bdee1b35fb84bab7c936782cd514385eb15bb8dd200e1be077fe7250c50",
+  "flags": [
+    "--gpu-check",
+    "thermal-gate"
+  ],
+  "plan": "full",
+  "seed": null,
+  "started_utc": "2026-11-14T14:00:33.9884543Z",
+  "gpu_at_start": "NVIDIA GeForce GTX 1650, 610.47, 51, 375 MHz, 8.15 W",
+  "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Zrównoważony)",
+  "on_ac_power": true,
+  "battery_percent": 96
+}

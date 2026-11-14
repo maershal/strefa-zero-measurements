@@ -1,0 +1,1 @@
+thermal-bits: bramka gazu w scenie cold pominęłaby etap, który zmienia stan (szczegóły w thermal-bits-info.txt).

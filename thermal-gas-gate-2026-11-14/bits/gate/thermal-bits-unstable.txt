@@ -1,0 +1,67 @@
+cold tick=0 cells=d5d5e185ed7c6b4d heat=7a61ea29394fcb15 particles=2057fe8d42987425 terrain=02b1407564281cf3
+cold tick=60 cells=eda76e51a240aca1 heat=2cff15a9f8dc705d particles=8132a1b104b9b5f5 terrain=02b1407564281cf3
+cold tick=120 cells=9d5047295d555dbd heat=2cff15a9f8dc705d particles=5743e918b956dfb2 terrain=02b1407564281cf3
+cold tick=180 cells=ce3b641abc778452 heat=2cff15a9f8dc705d particles=84bcde4d0d81a65b terrain=02b1407564281cf3
+cold tick=240 cells=ea46e755b0961d49 heat=2cff15a9f8dc705d particles=00b2d42f3d384594 terrain=02b1407564281cf3
+cold tick=300 cells=171c70ba0cd3ee1e heat=2cff15a9f8dc705d particles=08bb7296a1a90e53 terrain=02b1407564281cf3
+cold tick=360 cells=d874ff440e8f0cad heat=2cff15a9f8dc705d particles=e914646099f2e894 terrain=02b1407564281cf3
+cold tick=420 cells=3ac6bb7197cf3a46 heat=2cff15a9f8dc705d particles=9b50543b67d3bbed terrain=02b1407564281cf3
+cold tick=480 cells=fff08596b8091352 heat=2cff15a9f8dc705d particles=8a18b9b00d8853b4 terrain=02b1407564281cf3
+cold tick=540 cells=c0701f170769ce9a heat=2cff15a9f8dc705d particles=c812bcceb76b624a terrain=02b1407564281cf3
+cold tick=600 cells=584fe5384a6adfe1 heat=2cff15a9f8dc705d particles=89254cdc3e0d6730 terrain=02b1407564281cf3
+cold tick=600 fields cells 0f8a7ce33a1c56b1 c39efcfafa8e00c9 4f88eecbfac3aee5 cd3d81a7020d2325 cd3d81a7020d2325 41799b2322b62f85 907f1dc68218c635 f019cd6d320d2325 heat bd9482da7a2f8285 c74b47c8c74a2325 c74b47c8c74a2325 338324aa0fc7ed15 particles 36c2fcdc0da3e271 b4930ceb6e24fb99 32788662db5c7888 78e3b3591ae1dd89
+cold fixed_point tick=601 cells_changed=944 heat_changed=0 particles_changed=63201 terrain_changed=0 cell_fields=0,0,0,0,0,0,477,0 heat_fields=0,0,0,0
+cold brush tick=731 cells=5e240556b5021ead heat=a9b2c7e11c6badde particles=b478a6ef7ea508b7 terrain=02b1407564281cf3
+cold brush tick=731 fields cells 0f8a7ce33a1c56b1 6de6af9082823fa1 7f28c1ffd1e9e7d7 cc0e98fc24bf1479 560f343bcb561d34 d3d4641ff5f0cd05 952fb57e6cbb3d4e f019cd6d320d2325 heat c36bdbdaa8802bd2 c74b47c8c74a2325 c74b47c8c74a2325 058726fe39daced1 particles b6df0e8b3d6a18ee 56698b3a8ad429d2 863f40a7396b87ae 8115cbfdeceb9314
+oil tick=0 cells=97045963ae22ad65 heat=c06311d178554825 particles=9fba0bbfc3839379 terrain=3f4e4ea38b8214b9
+oil tick=60 cells=b7dc88cd24553115 heat=86c5289c4758e251 particles=c518edabcafae38e terrain=3f4e4ea38b8214b9
+oil tick=120 cells=d4625992e24c26e2 heat=093c31bcc1e63ef3 particles=1c9245e52f8525d0 terrain=3f4e4ea38b8214b9
+oil tick=180 cells=26411f6992a4e446 heat=9a01541f1b51d251 particles=0c06326c75b0c969 terrain=3f4e4ea38b8214b9
+oil tick=240 cells=ab5cc9aa39cf4f46 heat=8dde388acdede05a particles=06153bf1e6679cf2 terrain=3f4e4ea38b8214b9
+oil tick=300 cells=1829a27a47d09a56 heat=6c848376ee7b28d3 particles=bc10a9c6686a47fa terrain=3f4e4ea38b8214b9
+oil tick=360 cells=6dea4c792e1b4fb8 heat=4ca4ef99c9d83dcd particles=d371234c3e4e18a5 terrain=3f4e4ea38b8214b9
+oil tick=420 cells=84ecfd6f27136052 heat=82ed670e75eb62b7 particles=ffa0a11fe700f6b3 terrain=3f4e4ea38b8214b9
+oil tick=480 cells=cf7cc9e8c8a0a3f6 heat=c696275e88c4c499 particles=38f499c68639da7d terrain=3f4e4ea38b8214b9
+oil tick=540 cells=c1e21dcd7c43701e heat=9f6d2aac1c3606c0 particles=2d1f43bca32c7278 terrain=3f4e4ea38b8214b9
+oil tick=600 cells=17b463b51ed85248 heat=5201ddbb075a6709 particles=9a63a798ca2b670b terrain=3f4e4ea38b8214b9
+oil tick=600 fields cells 88900eb9654f210e 2c49ff9f997b1018 8efff0960fdc4026 4d45cce12fc69189 8e148ba4ec3f143b aa0c05531b70a86e cb862407fb730e48 019aba96c2e20e21 heat b6fefb888f4ef59e c74b47c8c74a2325 72c442a9992d2582 c175dc4d394ce8a5 particles 201a8ce9c0a23070 bf0eef701f477b6b 85bf7439847a466d 630c8f71becc5948
+oil fixed_point tick=601 cells_changed=424304 heat_changed=5736 particles_changed=12133 terrain_changed=0 cell_fields=1627,44934,44257,58560,1078,445,1033,842 heat_fields=1000,0,821,1000
+quench tick=0 cells=2f7a3c33842ffc35 heat=68daebc5534ddbc5 particles=a6a72c6cd0df79bd terrain=3f4e4ea38b8214b9
+quench tick=60 cells=8ce88677371c8e26 heat=71204153d741ab4e particles=cb73a4f352324af2 terrain=3f4e4ea38b8214b9
+quench tick=120 cells=82cc83b422dab384 heat=778889000f09ca0e particles=d0420faede9a5a39 terrain=3f4e4ea38b8214b9
+quench tick=180 cells=34f25918fc65c4e1 heat=19bb0b8382d50c7a particles=d3e665f008029274 terrain=3f4e4ea38b8214b9
+quench tick=240 cells=f68033b7082900df heat=fac77f322ca88558 particles=0b6f20706fbaecaa terrain=3f4e4ea38b8214b9
+quench tick=300 cells=303d9a12dd2c368d heat=e1577f1658c08704 particles=435c1df43dbe1616 terrain=3f4e4ea38b8214b9
+quench tick=360 cells=8e04ae6c8d3a7ccd heat=bc2ba2bc64748d84 particles=fb7adc99c9236ad0 terrain=3f4e4ea38b8214b9
+quench tick=420 cells=b4adbbf08ae360ab heat=d1331cd0e504521e particles=c44127d4fa837800 terrain=3f4e4ea38b8214b9
+quench tick=480 cells=533123bc528e4a47 heat=13931be0c02b8f02 particles=5093dd10d0b174c7 terrain=3f4e4ea38b8214b9
+quench tick=540 cells=e566500eeecb44a3 heat=9f5a38123c9fd758 particles=a7a0c73e1c593096 terrain=3f4e4ea38b8214b9
+quench tick=600 cells=5a5573bd838b4c4e heat=8baeeac8399d45d1 particles=dfd44f2db7dbd105 terrain=3f4e4ea38b8214b9
+quench tick=600 fields cells de4e8ec6bf522248 3c3c4ac452263086 186790b60a29a871 008704b471aa4c12 c1f57a7ef84d323e 235e7dc212ecfe71 09bf9640c59c085c 5b144e04ef0b2b25 heat 673e3370ecdd1764 7db1499010d2aeb9 fc9270a8c8e7554f 8760736f60271936 particles 81e05aab39080224 4ae8f4d87d48d4f3 b3ccbcde4207a612 7a63e0ada9ac14f9
+quench fixed_point tick=601 cells_changed=439786 heat_changed=8047 particles_changed=25552 terrain_changed=0 cell_fields=7133,44904,44109,58560,2134,409,1942,819 heat_fields=2100,57,815,2043
+phases tick=0 cells=7f3951bac1096005 heat=2af9f712fed8d995 particles=91c4623f8cec1094 terrain=3f4e4ea38b8214b9
+phases tick=60 cells=880ae7141c6dafe7 heat=eff10636c9688bb8 particles=36597c41f200285c terrain=3f4e4ea38b8214b9
+phases tick=120 cells=5734070e21b23733 heat=e25e1f0a5fae0ece particles=8c516b6820797a83 terrain=3f4e4ea38b8214b9
+phases tick=180 cells=66837aa5f4ee7810 heat=1663d43b079717ab particles=865edd7f637623c5 terrain=3f4e4ea38b8214b9
+phases tick=240 cells=a69571ca95538821 heat=2a75079662d5d692 particles=6add37feadd627f5 terrain=3f4e4ea38b8214b9
+phases tick=300 cells=04d5b479e6b4297e heat=c65b1f1dbf1a050e particles=804cf3780c58f54f terrain=3f4e4ea38b8214b9
+phases tick=360 cells=c8c77a9594b1ef49 heat=fec46cfcc37b07ad particles=57b594338bb99f6a terrain=3f4e4ea38b8214b9
+phases tick=420 cells=4f3636a6c2a40db9 heat=3434ef068a378e7d particles=457391d4d235de5d terrain=3f4e4ea38b8214b9
+phases tick=480 cells=3d88d95d86921c1d heat=3764f1d2977ccf26 particles=f3d9999952a320ed terrain=3f4e4ea38b8214b9
+phases tick=540 cells=b6e5b6307641fb39 heat=d5293f2f3e9e570c particles=388d0f78f851a878 terrain=3f4e4ea38b8214b9
+phases tick=600 cells=fb74529f2997f399 heat=ffb5bf90ecf8cde5 particles=326b04b656f5a52d terrain=3f4e4ea38b8214b9
+phases tick=600 fields cells e0ce6aff7987e7b0 f1e95e47921c214b 2366577779b20af1 d58c089fb04ef476 be684e28a38a5dca 7fed999378607c65 02d84c0dd7f05b5e f019cd6d320d2325 heat ce9a29aec561b55c 2e163875b25cc49e c74b47c8c74a2325 14f01e4271c904a3 particles 6e88997d98c51292 c12320b4ba7700eb 2c7b97547a5742c2 b0f1aa06edade31f
+phases fixed_point tick=601 cells_changed=372573 heat_changed=1599 particles_changed=7540 terrain_changed=0 cell_fields=6730,41815,41076,58560,804,0,447,0 heat_fields=668,128,0,543
+control tick=0 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=2057fe8d42987425 terrain=02b1407564281cf3
+control tick=60 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=b391d76c5243153a terrain=02b1407564281cf3
+control tick=120 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=d29e3d7b64fd3843 terrain=02b1407564281cf3
+control tick=180 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=a5c6379b133f743e terrain=02b1407564281cf3
+control tick=240 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=b805a5d67e900619 terrain=02b1407564281cf3
+control tick=300 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=893eead7cc9029ab terrain=02b1407564281cf3
+control tick=360 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=0cff6e97841604c0 terrain=02b1407564281cf3
+control tick=420 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=8985d2464bb92114 terrain=02b1407564281cf3
+control tick=480 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=45ce6c7379eb9678 terrain=02b1407564281cf3
+control tick=540 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=4c859e0c50717753 terrain=02b1407564281cf3
+control tick=600 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=5ed8c3271b343e53 terrain=02b1407564281cf3
+control tick=600 fields cells cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 heat cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 particles a9dc5341f576a840 7d671053e6cbd298 b61f0273e6e09d2c c2b04d64baee08de
+control fixed_point tick=601 cells_changed=0 heat_changed=0 particles_changed=63230 terrain_changed=0 cell_fields=0,0,0,0,0,0,0,0 heat_fields=0,0,0,0

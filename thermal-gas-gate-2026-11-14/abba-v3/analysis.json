@@ -1,0 +1,54 @@
+{
+  "session_max_mhz": 1950.0,
+  "telemetry_samples": 2860,
+  "fastest_gpu_probe_ms": 3.430592,
+  "segments": 64,
+  "disqualified": [],
+  "segments_with_power_cap": 60,
+  "scenes": {
+    "cold": {
+      "quads": 4,
+      "qualified_quads": 4,
+      "off_median_ms": 6.846608,
+      "on_median_ms": 5.670512,
+      "effect_median_ms": -1.171952,
+      "effect_min_ms": -1.1880800000000011,
+      "effect_max_ms": -1.1582400000000002,
+      "effect_percent": -17.117264490679183,
+      "skipped_fraction": 1.0
+    },
+    "idle": {
+      "quads": 4,
+      "qualified_quads": 4,
+      "off_median_ms": 3.5405119999999997,
+      "on_median_ms": 2.3758559999999997,
+      "effect_median_ms": -1.1777520000000001,
+      "effect_min_ms": -1.1806560000000004,
+      "effect_max_ms": -1.1632959999999999,
+      "effect_percent": -33.265019296644105,
+      "skipped_fraction": 1.0
+    },
+    "fire": {
+      "quads": 4,
+      "qualified_quads": 4,
+      "off_median_ms": 3.475456,
+      "on_median_ms": 3.6264000000000003,
+      "effect_median_ms": 0.14800800000000014,
+      "effect_min_ms": 0.12129600000000007,
+      "effect_max_ms": 0.15651199999999976,
+      "effect_percent": 4.25866418680024,
+      "skipped_fraction": 0.0
+    },
+    "quench": {
+      "quads": 4,
+      "qualified_quads": 4,
+      "off_median_ms": 5.7948319999999995,
+      "on_median_ms": 5.93776,
+      "effect_median_ms": 0.155424,
+      "effect_min_ms": 0.1403200000000009,
+      "effect_max_ms": 0.16092800000000018,
+      "effect_percent": 2.6821139939863663,
+      "skipped_fraction": 0.0
+    }
+  }
+}

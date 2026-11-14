@@ -1,0 +1,25 @@
+fire tick=0 cells=6115a59219dd5b85 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84aa4f0b19eaff39
+fire tick=60 cells=7a7c82c551a8f989 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84aa4f0b19eaff39
+fire tick=120 cells=dd32042a0b55dd47 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84aa4f0b19eaff39
+fire tick=120 fields cells 9af62b358ebec38b 21b503b900ec6668 0dee1680aeddb47a 857cd27ccf515d87 cd3d81a7020d2325 e8be4e63e45e78d4 3336da895fc1a529 e2ce312aab0cfec4 heat c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 particles c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325
+fire fixed_point tick=121 cells_changed=239332 heat_changed=0 particles_changed=0 terrain_changed=0 cell_fields=240,32746,32734,32800,0,162,162,160 heat_fields=0,0,0,0
+oil tick=0 cells=97045963ae22ad65 heat=c06311d178554825 particles=9fba0bbfc3839379 terrain=84aa4f0b19eaff39
+oil tick=60 cells=30d2300ef4c5ffdb heat=aa2874d59a06046e particles=7ce308dd833d6a43 terrain=84aa4f0b19eaff39
+oil tick=120 cells=0983f5abd91a5547 heat=6fcfea2ea547b26f particles=74e0c78a5c245e30 terrain=84aa4f0b19eaff39
+oil tick=120 fields cells ec18ddd2cb344a31 5d2658e85278dbb2 bf02de65234328e4 f82c310f7962ccab 69b4344ad4e09d3f e6ba6efc1f752b01 cafc556b1622de2a d85ace429bbc0c22 heat dc9500efb0e27f71 c74b47c8c74a2325 729cfb7fc5a25477 cc9bb30ea0c1dc15 particles 21b51586d1a66972 2abc9d590f835068 f74fcb50f1354dba 1cc756cec907ff55
+oil fixed_point tick=121 cells_changed=267956 heat_changed=5696 particles_changed=12035 terrain_changed=0 cell_fields=1247,32796,32796,34660,1105,321,1068,917 heat_fields=1000,0,852,1000
+quench tick=0 cells=7e6170496527b875 heat=70864fa950e3be25 particles=a6a72c6cd0df79bd terrain=84aa4f0b19eaff39
+quench tick=60 cells=6c99893f33bd9ef5 heat=43124262adca7299 particles=8b3404374df50f95 terrain=84aa4f0b19eaff39
+quench tick=120 cells=2f2b20b3b590924e heat=c319c44da7fb2e4b particles=702327e53e02c2cc terrain=84aa4f0b19eaff39
+quench tick=120 fields cells 66167290d66a180f 969ddb170bcd61f3 637472de9a0c73d4 c56b9477449ade00 c7c8d8570dc7091d b813e39a43c68a28 abdbfc4c0dd15bb8 ba40937c6b03dc66 heat 5742fc8745c6ad60 c74b47c8c74a2325 b84dc88aa364c27a 70c8ed04b22b8a41 particles 49ac77228bb14ad2 eaf0c882e46b7dcd 444cf631ed1c0cf4 8c1489a765375fc2
+quench fixed_point tick=121 cells_changed=269706 heat_changed=7821 particles_changed=24937 terrain_changed=0 cell_fields=1247,32795,32795,34660,2225,246,2029,840 heat_fields=2068,0,850,2062
+phases tick=0 cells=2be0d9bb7f209745 heat=7a5e0164e2a476d5 particles=91c4623f8cec1094 terrain=84aa4f0b19eaff39
+phases tick=60 cells=252a03bfd3c318e3 heat=ac4c416087fe4361 particles=f17e8aa789519c0b terrain=84aa4f0b19eaff39
+phases tick=120 cells=f78fa83ab1ab93da heat=ced62af0f3d583a2 particles=9156346cf80fc4d7 terrain=84aa4f0b19eaff39
+phases tick=120 fields cells b8db4f43b2972ac0 630c4c301c2d2d82 21efee158bbdb3a8 308f4c3413664db7 4ebc05733a888f5d ef6f0cd2291957e5 f131639918b52c73 f019cd6d320d2325 heat de43c67e81b6fa3d 89958cca9cb136ca c74b47c8c74a2325 be7805b918da4b2d particles dbb34cf018803534 e00d3c321d2215b2 815f78a5d320d209 6aa94a7d0aa67769
+phases fixed_point tick=121 cells_changed=231361 heat_changed=1215 particles_changed=7132 terrain_changed=0 cell_fields=824,32788,32787,32800,739,0,509,0 heat_fields=600,4,0,598
+idle tick=0 cells=d0c8c2a8b335fe35 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84a27e0ea6fe756f
+idle tick=60 cells=d0c8c2a8b335fe35 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84a27e0ea6fe756f
+idle tick=120 cells=d0c8c2a8b335fe35 heat=fc31bff590c22325 particles=fc31bff590c22325 terrain=84a27e0ea6fe756f
+idle tick=120 fields cells d62030de3a03ceb9 562cc1d08cfaf1b1 1510fb040aa49365 cd3d81a7020d2325 cd3d81a7020d2325 cd3d81a7020d2325 fb5d7cafc10d2325 f019cd6d320d2325 heat c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 particles c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325 c74b47c8c74a2325
+idle fixed_point tick=121 cells_changed=0 heat_changed=0 particles_changed=0 terrain_changed=0 cell_fields=0,0,0,0,0,0,0,0 heat_fields=0,0,0,0

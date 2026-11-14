@@ -1,0 +1,20 @@
+renderer=llvmpipe (LLVM 20.1.2, 256 bits)
+version=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+vendor=Mesa
+ticks=120
+every=60
+repeat cold=no first_difference="cold tick=60 cells=7cddfee2ceecc89a heat=e7897d9b98bd96a5 particles=d0d794ff8e295ee4 terrain=a278857bebec6193"
+repeat fire=yes
+repeat oil=yes
+repeat quench=yes
+repeat phases=yes
+repeat control=no first_difference="control tick=60 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=9bdd4b8d6f6443f1 terrain=a278857bebec6193"
+repeat idle=yes
+gate cold ticks=251 skipped=120 audit_ticks=251 audit_skippable=120 audit_violations=0
+gate fire ticks=121 skipped=0 audit_ticks=121 audit_skippable=0 audit_violations=0
+gate oil ticks=121 skipped=0 audit_ticks=121 audit_skippable=0 audit_violations=0
+gate quench ticks=121 skipped=0 audit_ticks=121 audit_skippable=0 audit_violations=0
+gate phases ticks=121 skipped=0 audit_ticks=121 audit_skippable=0 audit_violations=0
+gate control ticks=0 skipped=0 audit_ticks=0 audit_skippable=0 audit_violations=0
+gate idle ticks=121 skipped=120 audit_ticks=121 audit_skippable=120 audit_violations=0
+thermal_bits=passed

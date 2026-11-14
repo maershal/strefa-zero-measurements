@@ -1,0 +1,12 @@
+cold tick=0 cells=edcac0c8bce2fc5d heat=c9c25f568e2c1b45 particles=2057fe8d42987425 terrain=a278857bebec6193
+cold tick=60 cells=7cddfee2ceecc89a heat=e7897d9b98bd96a5 particles=d0d794ff8e295ee4 terrain=a278857bebec6193
+cold tick=120 cells=f8c92b22ed5d7795 heat=e7897d9b98bd96a5 particles=d94b9dbacbc28f7e terrain=a278857bebec6193
+cold tick=120 fields cells 0f8a7ce33a1c56b1 c39efcfafa8e00c9 4f88eecbfac3aee5 cd3d81a7020d2325 a9bc06522a101b25 16c7e4f24b0f28cd d078e019f01b80a5 f019cd6d320d2325 heat 33bdc759cdc0b54d c74b47c8c74a2325 c74b47c8c74a2325 338324aa0fc7ed15 particles 9432a85d4571bd50 7a987f343590b82c d585e3bd811004f2 d5a22239fcf32c21
+cold fixed_point tick=121 cells_changed=1090 heat_changed=0 particles_changed=63330 terrain_changed=0 cell_fields=0,0,0,0,30,0,542,0 heat_fields=0,0,0,0
+cold brush tick=251 cells=062a478f6adf5813 heat=7d000e2ea618d39e particles=7e4214fc2f122127 terrain=a278857bebec6193
+cold brush tick=251 fields cells 4cf8bb16bc4dfd6c 4bdbde57606fadd8 1153f5b3ae425555 f5c7e47e24e0f8f3 1cfd48f5f0d4ef5b 91d2e41823147a4d fa88a3758f5054ff f019cd6d320d2325 heat 82968a3199901d9c c74b47c8c74a2325 c74b47c8c74a2325 ae19c94ea9f9c77f particles 4fc9913a81923690 2e78ae694c12137d 7b4a0d2898982a3e 8f31cfb24914cb15
+control tick=0 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=2057fe8d42987425 terrain=a278857bebec6193
+control tick=60 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=9bdd4b8d6f6443f1 terrain=a278857bebec6193
+control tick=120 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=07f0f74307d94fae terrain=a278857bebec6193
+control tick=120 fields cells cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 heat cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 cbf29ce484222325 particles 54f864abca60fece 316e8e8b27e1e6f7 08d7789549a9e472 2c6fed73f6651e60
+control fixed_point tick=121 cells_changed=0 heat_changed=0 particles_changed=63334 terrain_changed=0 cell_fields=0,0,0,0,0,0,0,0 heat_fields=0,0,0,0

@@ -1,0 +1,20 @@
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2
+version=4.3.0 NVIDIA 610.47
+vendor=NVIDIA Corporation
+ticks=600
+every=60
+repeat cold=no first_difference="cold tick=60 cells=75039b14cd587b1e heat=2cff15a9f8dc705d particles=4e6ec781898a5981 terrain=02b1407564281cf3"
+repeat fire=yes
+repeat oil=no first_difference="oil tick=60 cells=9acb66d90da57284 heat=799059099c20639c particles=748eeb50ec10853c terrain=3f4e4ea38b8214b9"
+repeat quench=no first_difference="quench tick=60 cells=0bdf27c478e41abc heat=816409a653def295 particles=82eb309b3fceefb2 terrain=3f4e4ea38b8214b9"
+repeat phases=no first_difference="phases tick=60 cells=f379caaa8f75f092 heat=bd755ff0f3b0fbb8 particles=97412405f8b39c67 terrain=3f4e4ea38b8214b9"
+repeat control=no first_difference="control tick=60 cells=cbf29ce484222325 heat=cbf29ce484222325 particles=727881e45254ae1d terrain=02b1407564281cf3"
+repeat idle=yes
+gate cold ticks=731 skipped=600 audit_ticks=731 audit_skippable=600 audit_violations=0
+gate fire ticks=601 skipped=0 audit_ticks=601 audit_skippable=0 audit_violations=0
+gate oil ticks=601 skipped=0 audit_ticks=601 audit_skippable=0 audit_violations=0
+gate quench ticks=601 skipped=0 audit_ticks=601 audit_skippable=0 audit_violations=0
+gate phases ticks=601 skipped=0 audit_ticks=601 audit_skippable=0 audit_violations=0
+gate control ticks=0 skipped=0 audit_ticks=0 audit_skippable=0 audit_violations=0
+gate idle ticks=601 skipped=600 audit_ticks=601 audit_skippable=600 audit_violations=0
+thermal_bits=passed

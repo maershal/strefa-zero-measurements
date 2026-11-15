@@ -1,0 +1,162 @@
+Test project C:/Users/mrmae/Documents/Projekty/Windows-strefa-zero/build/release
+      Start  28: gpu.platform_dispatch
+ 1/74 Test  #28: gpu.platform_dispatch .............   Passed    0.91 sec
+      Start  29: app.opengl_smoke
+ 2/74 Test  #29: app.opengl_smoke ..................   Passed    4.43 sec
+      Start  30: app.laboratory_responsiveness
+ 3/74 Test  #30: app.laboratory_responsiveness .....   Passed    5.49 sec
+      Start  31: app.laboratory_four_threads
+ 4/74 Test  #31: app.laboratory_four_threads .......   Passed    5.59 sec
+      Start  32: app.shared_session
+ 5/74 Test  #32: app.shared_session ................   Passed    3.11 sec
+      Start  33: gpu.shader_cache
+ 6/74 Test  #33: gpu.shader_cache ..................   Passed    1.89 sec
+      Start  34: gpu.lighting_pressure
+ 7/74 Test  #34: gpu.lighting_pressure .............   Passed    0.70 sec
+      Start  35: gpu.thermal_edges
+ 8/74 Test  #35: gpu.thermal_edges .................   Passed   33.58 sec
+      Start  36: gpu.thermal_ui
+ 9/74 Test  #36: gpu.thermal_ui ....................   Passed    9.93 sec
+      Start  37: gpu.thermal
+10/74 Test  #37: gpu.thermal .......................   Passed   26.46 sec
+      Start  38: gpu.vfx
+11/74 Test  #38: gpu.vfx ...........................   Passed   19.19 sec
+      Start  39: gpu.lighting
+12/74 Test  #39: gpu.lighting ......................   Passed    2.72 sec
+      Start  40: gpu.renderer
+13/74 Test  #40: gpu.renderer ......................   Passed    2.44 sec
+      Start  41: gpu.fluid_quality
+14/74 Test  #41: gpu.fluid_quality .................   Passed   19.54 sec
+      Start  42: gpu.gameplay
+15/74 Test  #42: gpu.gameplay ......................   Passed    3.76 sec
+      Start  43: gpu.mission
+16/74 Test  #43: gpu.mission .......................   Passed   23.54 sec
+      Start  44: gpu.pbf_64_liquid
+17/74 Test  #44: gpu.pbf_64_liquid .................   Passed    7.20 sec
+      Start  45: gpu.pbf_64_mission
+18/74 Test  #45: gpu.pbf_64_mission ................   Passed   23.44 sec
+      Start  46: gpu.pbf_64_coupling
+19/74 Test  #46: gpu.pbf_64_coupling ...............   Passed    8.58 sec
+      Start  47: gpu.pbf_128_liquid
+20/74 Test  #47: gpu.pbf_128_liquid ................   Passed    7.28 sec
+      Start  48: gpu.pbf_128_mission
+21/74 Test  #48: gpu.pbf_128_mission ...............   Passed   23.40 sec
+      Start  49: gpu.pbf_128_coupling
+22/74 Test  #49: gpu.pbf_128_coupling ..............   Passed    8.87 sec
+      Start  50: gpu.pbf_restrict_bindings
+23/74 Test  #50: gpu.pbf_restrict_bindings .........   Passed    1.77 sec
+      Start  51: gpu.pbf_restrict_liquid
+24/74 Test  #51: gpu.pbf_restrict_liquid ...........   Passed    7.32 sec
+      Start  52: gpu.pbf_restrict_mission
+25/74 Test  #52: gpu.pbf_restrict_mission ..........   Passed   23.44 sec
+      Start  53: gpu.pbf_restrict_coupling
+26/74 Test  #53: gpu.pbf_restrict_coupling .........   Passed    8.70 sec
+      Start  54: gpu.pbf_restrict_hot_aos_sorted
+27/74 Test  #54: gpu.pbf_restrict_hot_aos_sorted ...   Passed    2.64 sec
+      Start  55: gpu.pbf_restrict_hot_aos_reused
+28/74 Test  #55: gpu.pbf_restrict_hot_aos_reused ...   Passed    2.60 sec
+      Start  56: gpu.pbf_restrict_hot_soa_sorted
+29/74 Test  #56: gpu.pbf_restrict_hot_soa_sorted ...   Passed    3.22 sec
+      Start  57: gpu.pbf_restrict_hot_soa_reused
+30/74 Test  #57: gpu.pbf_restrict_hot_soa_reused ...   Passed    3.27 sec
+      Start  58: gpu.instrumentation
+31/74 Test  #58: gpu.instrumentation ...............   Passed    1.51 sec
+      Start  59: gpu.hot_aos_sorted
+32/74 Test  #59: gpu.hot_aos_sorted ................   Passed    2.61 sec
+      Start  60: gpu.hot_aos_reused
+33/74 Test  #60: gpu.hot_aos_reused ................   Passed    2.58 sec
+      Start  61: gpu.hot_soa_sorted
+34/74 Test  #61: gpu.hot_soa_sorted ................   Passed    3.24 sec
+      Start  62: gpu.hot_soa_reused
+35/74 Test  #62: gpu.hot_soa_reused ................   Passed    3.43 sec
+      Start  63: gpu.hot_mission_narrow
+36/74 Test  #63: gpu.hot_mission_narrow ............   Passed   23.34 sec
+      Start  64: gpu.hot_mission_sorted
+37/74 Test  #64: gpu.hot_mission_sorted ............   Passed   23.53 sec
+      Start  65: gpu.hot_immutable
+38/74 Test  #65: gpu.hot_immutable .................   Passed    3.27 sec
+      Start  66: gpu.cost_aos
+39/74 Test  #66: gpu.cost_aos ......................   Passed    1.88 sec
+      Start  67: gpu.cost_soa
+40/74 Test  #67: gpu.cost_soa ......................   Passed    1.87 sec
+      Start  68: gpu.cost_immutable
+41/74 Test  #68: gpu.cost_immutable ................   Passed    2.04 sec
+      Start  69: gpu.transport
+42/74 Test  #69: gpu.transport .....................   Passed    1.46 sec
+      Start  70: gpu.transport_mission
+43/74 Test  #70: gpu.transport_mission .............   Passed   25.46 sec
+      Start  71: gpu.work_gating
+44/74 Test  #71: gpu.work_gating ...................   Passed    2.18 sec
+      Start  72: gpu.work_mission
+45/74 Test  #72: gpu.work_mission ..................   Passed   23.63 sec
+      Start  73: gpu.work_gating_aos_sorted
+46/74 Test  #73: gpu.work_gating_aos_sorted ........   Passed    2.21 sec
+      Start  74: gpu.work_gating_aos_reused
+47/74 Test  #74: gpu.work_gating_aos_reused ........   Passed    2.19 sec
+      Start  75: gpu.work_gating_soa_sorted
+48/74 Test  #75: gpu.work_gating_soa_sorted ........   Passed    2.18 sec
+      Start  76: gpu.coupling
+49/74 Test  #76: gpu.coupling ......................   Passed    8.62 sec
+      Start  77: gpu.neighbors
+50/74 Test  #77: gpu.neighbors .....................   Passed    2.20 sec
+      Start  78: gpu.execution
+51/74 Test  #78: gpu.execution .....................   Passed    4.45 sec
+      Start  79: gpu.readback_ring
+52/74 Test  #79: gpu.readback_ring .................   Passed    0.75 sec
+      Start  80: gpu.mission_ui
+53/74 Test  #80: gpu.mission_ui ....................   Passed   14.91 sec
+      Start  81: gpu.scene_benchmark_clean
+54/74 Test  #81: gpu.scene_benchmark_clean .........   Passed    0.07 sec
+      Start  82: gpu.scene_benchmark
+55/74 Test  #82: gpu.scene_benchmark ...............   Passed    6.85 sec
+      Start  83: gpu.scene_benchmark_content
+56/74 Test  #83: gpu.scene_benchmark_content .......   Passed    0.08 sec
+      Start  84: gpu.mission_ui_quick_clean
+57/74 Test  #84: gpu.mission_ui_quick_clean ........   Passed    0.10 sec
+      Start  85: gpu.mission_ui_quick
+58/74 Test  #85: gpu.mission_ui_quick ..............   Passed   16.70 sec
+      Start  86: gpu.shader_progress_frames
+59/74 Test  #86: gpu.shader_progress_frames ........   Passed    0.07 sec
+      Start  87: app.mode_faults
+60/74 Test  #87: app.mode_faults ...................   Passed    3.51 sec
+      Start  88: gpu.granular_physics
+61/74 Test  #88: gpu.granular_physics ..............   Passed    3.19 sec
+      Start  89: gpu.liquid_physics
+62/74 Test  #89: gpu.liquid_physics ................   Passed    7.22 sec
+      Start  90: gpu.flow_behaviour
+63/74 Test  #90: gpu.flow_behaviour ................   Passed    8.66 sec
+      Start  91: gpu.brush_history
+64/74 Test  #91: gpu.brush_history .................   Passed    1.32 sec
+      Start  92: gpu.brush_history_sorted_aos
+65/74 Test  #92: gpu.brush_history_sorted_aos ......   Passed    1.76 sec
+      Start  93: gpu.lab_blast
+66/74 Test  #93: gpu.lab_blast .....................   Passed    0.76 sec
+      Start  94: gpu.lab_blast_mission
+67/74 Test  #94: gpu.lab_blast_mission .............   Passed    0.77 sec
+      Start  95: gpu.coupling_bitwise
+68/74 Test  #95: gpu.coupling_bitwise ..............   Passed    5.28 sec
+      Start  96: gpu.thermal_bits
+69/74 Test  #96: gpu.thermal_bits ..................   Passed   13.11 sec
+      Start  97: gpu.thermal_gate
+70/74 Test  #97: gpu.thermal_gate ..................   Passed    4.90 sec
+      Start  98: gpu.iteration_sweep
+71/74 Test  #98: gpu.iteration_sweep ...............   Passed   19.18 sec
+      Start  99: gpu.cost_model
+72/74 Test  #99: gpu.cost_model ....................   Passed    8.68 sec
+      Start 100: gpu.laboratory_ui
+73/74 Test #100: gpu.laboratory_ui .................   Passed    4.72 sec
+      Start 101: app.opengl33_smoke
+74/74 Test #101: app.opengl33_smoke ................   Passed    5.12 sec
+
+100% tests passed out of 74
+
+Label Time Summary:
+ci-gl33           =   8.63 sec*proc (2 tests)
+ci-smoke          =  62.82 sec*proc (21 tests)
+gpu               = 542.43 sec*proc (69 tests)
+graphics          = 566.57 sec*proc (74 tests)
+integration       = 566.57 sec*proc (74 tests)
+perf-wallclock    =  40.65 sec*proc (5 tests)
+performance       =  32.84 sec*proc (4 tests)
+
+Total Test time (real) = 566.69 sec

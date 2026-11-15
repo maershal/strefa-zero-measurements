@@ -1,0 +1,5 @@
+pbf,contact,gate,result,seconds,gl_errors,message
+4,11,granular,PASS,9.61641,0,
+4,11,coupling,PASS,22.417,0,
+5,11,granular,PASS,9.91919,0,
+5,11,coupling,PASS,24.7778,0,

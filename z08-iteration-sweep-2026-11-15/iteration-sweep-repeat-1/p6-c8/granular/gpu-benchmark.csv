@@ -1,0 +1,3 @@
+scene,grains,steps,gpu_median_ms,gpu_p95_ms,gpu_p99_ms,gpu_max_ms,samples
+0,9500,480,4.864,5.74259,7.13482,7.22944,480
+1,4400,480,2.63917,3.33418,4.04538,6.24682,480

@@ -1,0 +1,71 @@
+pbf_size=256 particle_size=256 reduction_size=256
+pbf_restrict_requested=0 pbf_restrict_effective=0
+world_ready mode=1 group=256 seconds=0.549932
+case mode=1 group=256 count=0
+queue=0 commands=0,0 stats=0,0,0,0
+case mode=1 group=256 count=1
+queue=0 commands=0,0 stats=1,1,1,0
+case mode=1 group=256 count=255
+queue=0 commands=0,0 stats=255,1,1,0
+case mode=1 group=256 count=256
+queue=0 commands=0,0 stats=256,1,1,0
+case mode=1 group=256 count=257
+queue=0 commands=0,0 stats=257,1,2,1
+case mode=1 group=256 count=32768
+queue=0 commands=0,0 stats=32768,1,128,1
+case mode=1 group=256 count=65536
+queue=0 commands=0,0 stats=65536,1,256,1
+mode=1 group=256 empty,tails,full_two_channels,hierarchy,support,replay,reset=passed
+world_ready mode=2 group=64 seconds=0.439936
+case mode=2 group=64 count=0
+queue=0 commands=0,0 stats=0,0,0,0
+case mode=2 group=64 count=1
+queue=0 commands=0,0 stats=1,1,1,0
+case mode=2 group=64 count=63
+queue=0 commands=0,0 stats=63,1,1,0
+case mode=2 group=64 count=64
+queue=0 commands=0,0 stats=64,1,1,0
+case mode=2 group=64 count=65
+queue=0 commands=0,0 stats=65,1,2,1
+case mode=2 group=64 count=32768
+queue=0 commands=0,0 stats=32768,1,512,1
+case mode=2 group=64 count=65536
+queue=0 commands=0,0 stats=65536,1,1024,1
+mode=2 group=64 empty,tails,full_two_channels,hierarchy,support,replay,reset=passed
+world_ready mode=2 group=128 seconds=0.444882
+case mode=2 group=128 count=0
+queue=0 commands=0,0 stats=0,0,0,0
+case mode=2 group=128 count=1
+queue=0 commands=0,0 stats=1,1,1,0
+case mode=2 group=128 count=127
+queue=0 commands=0,0 stats=127,1,1,0
+case mode=2 group=128 count=128
+queue=0 commands=0,0 stats=128,1,1,0
+case mode=2 group=128 count=129
+queue=0 commands=0,0 stats=129,1,2,1
+case mode=2 group=128 count=32768
+queue=0 commands=0,0 stats=32768,1,256,1
+case mode=2 group=128 count=65536
+queue=0 commands=0,0 stats=65536,1,512,1
+mode=2 group=128 empty,tails,full_two_channels,hierarchy,support,replay,reset=passed
+world_ready mode=2 group=256 seconds=0.471446
+case mode=2 group=256 count=0
+queue=0 commands=0,0 stats=0,0,0,0
+case mode=2 group=256 count=1
+queue=0 commands=0,0 stats=1,1,1,0
+case mode=2 group=256 count=255
+queue=0 commands=0,0 stats=255,1,1,0
+case mode=2 group=256 count=256
+queue=0 commands=0,0 stats=256,1,1,0
+case mode=2 group=256 count=257
+queue=0 commands=0,0 stats=257,1,2,1
+case mode=2 group=256 count=32768
+queue=0 commands=0,0 stats=32768,1,128,1
+case mode=2 group=256 count=65536
+queue=0 commands=0,0 stats=65536,1,256,1
+mode=2 group=256 empty,tails,full_two_channels,hierarchy,support,replay,reset=passed
+geometry_target=local
+geometry_acceptance=paired_checkpoint_replay; legacy90 metrics diagnostic
+geometry_run=1 mean=0.550833 center=0.040202 actor_max=0.00019895
+geometry_run=2 mean=0.483406 center=0.00613112 actor_max=0.000214167
+legacy90_pass=1 mean_limit=1.10167 center_limit=0.080404 actor_limit=0.15

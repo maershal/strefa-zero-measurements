@@ -1,0 +1,5 @@
+pbf,contact,gate,result,seconds,gl_errors,message
+4,11,granular,PASS,9.61207,0,
+4,11,coupling,FAIL,6.97287,0,Geometry comparison exercised no local reactions
+5,11,granular,PASS,9.93794,0,
+5,11,coupling,PASS,24.1675,0,

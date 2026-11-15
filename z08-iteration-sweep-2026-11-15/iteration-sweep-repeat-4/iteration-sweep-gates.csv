@@ -1,0 +1,19 @@
+pbf,contact,gate,result,seconds,gl_errors,message
+8,12,granular,PASS,10.0528,0,
+8,12,coupling,PASS,26.1574,0,
+7,11,granular,PASS,10.0653,0,
+7,11,coupling,PASS,24.407,0,
+6,10,granular,FAIL,7.83763,0,Dense contact solve exceeded a grain radius of penetration
+6,10,coupling,PASS,22.5826,0,
+6,9,granular,FAIL,7.64554,0,Dense contact solve exceeded a grain radius of penetration
+6,9,coupling,PASS,22.7499,0,
+5,10,granular,PASS,9.08776,0,
+5,10,coupling,PASS,21.7997,0,
+5,9,granular,FAIL,7.61107,0,Dense contact solve exceeded a grain radius of penetration
+5,9,coupling,PASS,20.9635,0,
+4,10,granular,PASS,9.04153,0,
+4,10,coupling,PASS,20.2239,0,
+4,9,granular,FAIL,7.21816,0,Dense contact solve exceeded a grain radius of penetration
+4,9,coupling,PASS,22.3989,0,
+6,8,granular,FAIL,7.11927,0,Dense contact solve exceeded a grain radius of penetration
+6,8,coupling,FAIL,6.80772,0,Geometry comparison exercised no local reactions

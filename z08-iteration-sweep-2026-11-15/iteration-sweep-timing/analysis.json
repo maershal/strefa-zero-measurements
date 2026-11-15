@@ -1,0 +1,536 @@
+{
+  "session_max_mhz": 1920.0,
+  "telemetry_samples": 2424,
+  "fastest_gpu_probe_ms": 3.425056,
+  "segments": 72,
+  "disqualified": [],
+  "segments_with_power_cap": 16,
+  "cheapest_passing": "5/10",
+  "configs": {
+    "8/12": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "granular": {
+          "runs": 7,
+          "passes": 7,
+          "messages": []
+        },
+        "flow": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 7,
+          "passes": 7,
+          "messages": []
+        },
+        "mission": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.724368,
+          "delta_vs_baseline_ms": 0.0,
+          "delta_min_ms": 0.0,
+          "delta_max_ms": 0.0,
+          "dispatches_per_tick": 114.125,
+          "barriers_per_tick": 116.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.5322560000000003,
+          "delta_vs_baseline_ms": 0.0,
+          "delta_min_ms": 0.0,
+          "delta_max_ms": 0.0,
+          "dispatches_per_tick": 48.125,
+          "barriers_per_tick": 48.125
+        }
+      },
+      "all_gates_pass": true
+    },
+    "7/11": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.483728,
+          "delta_vs_baseline_ms": -0.22816000000000014,
+          "delta_min_ms": -0.28726399999999996,
+          "delta_max_ms": -0.18000000000000016,
+          "dispatches_per_tick": 106.125,
+          "barriers_per_tick": 108.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.2661759999999997,
+          "delta_vs_baseline_ms": -0.27080000000000015,
+          "delta_min_ms": -0.3478080000000001,
+          "delta_max_ms": -0.14015999999999984,
+          "dispatches_per_tick": 44.125,
+          "barriers_per_tick": 44.125
+        }
+      },
+      "all_gates_pass": true
+    },
+    "6/10": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 6,
+          "passes": 5,
+          "messages": [
+            "Dense contact solve exceeded a grain radius of penetration"
+          ]
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.208768,
+          "delta_vs_baseline_ms": -0.526864,
+          "delta_min_ms": -0.577312,
+          "delta_max_ms": -0.4815680000000002,
+          "dispatches_per_tick": 98.125,
+          "barriers_per_tick": 100.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.987584,
+          "delta_vs_baseline_ms": -0.502688,
+          "delta_min_ms": -0.6041920000000001,
+          "delta_max_ms": -0.42134399999999994,
+          "dispatches_per_tick": 40.125,
+          "barriers_per_tick": 40.125
+        }
+      },
+      "all_gates_pass": false
+    },
+    "6/8": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "granular": {
+          "runs": 7,
+          "passes": 0,
+          "messages": [
+            "Dense contact solve exceeded a grain radius of penetration"
+          ]
+        },
+        "flow": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 7,
+          "passes": 1,
+          "messages": [
+            "Geometry comparison exercised no local reactions"
+          ]
+        },
+        "mission": {
+          "runs": 2,
+          "passes": 2,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.090736,
+          "delta_vs_baseline_ms": -0.6211519999999999,
+          "delta_min_ms": -0.7022400000000002,
+          "delta_max_ms": -0.602624,
+          "dispatches_per_tick": 90.125,
+          "barriers_per_tick": 92.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.987984,
+          "delta_vs_baseline_ms": -0.5540160000000001,
+          "delta_min_ms": -0.602144,
+          "delta_max_ms": -0.35231999999999974,
+          "dispatches_per_tick": 40.125,
+          "barriers_per_tick": 40.125
+        }
+      },
+      "all_gates_pass": false
+    },
+    "5/11": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.055568,
+          "delta_vs_baseline_ms": -0.661808,
+          "delta_min_ms": -0.7400320000000002,
+          "delta_max_ms": -0.6409600000000002,
+          "dispatches_per_tick": 98.125,
+          "barriers_per_tick": 100.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.7072479999999999,
+          "delta_vs_baseline_ms": -0.8115680000000001,
+          "delta_min_ms": -0.9099200000000001,
+          "delta_max_ms": -0.698304,
+          "dispatches_per_tick": 36.125,
+          "barriers_per_tick": 36.125
+        }
+      },
+      "all_gates_pass": true
+    },
+    "5/10": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 2.010336,
+          "delta_vs_baseline_ms": -0.7165920000000001,
+          "delta_min_ms": -0.740704,
+          "delta_max_ms": -0.6938879999999998,
+          "dispatches_per_tick": 94.125,
+          "barriers_per_tick": 96.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.6783359999999998,
+          "delta_vs_baseline_ms": -0.8304480000000001,
+          "delta_min_ms": -0.9477119999999999,
+          "delta_max_ms": -0.729152,
+          "dispatches_per_tick": 36.125,
+          "barriers_per_tick": 36.125
+        }
+      },
+      "all_gates_pass": true
+    },
+    "5/8": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 1,
+          "passes": 0,
+          "messages": [
+            "Dense contact solve exceeded a grain radius of penetration"
+          ]
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.906688,
+          "delta_vs_baseline_ms": -0.808768,
+          "delta_min_ms": -0.9053760000000002,
+          "delta_max_ms": -0.794656,
+          "dispatches_per_tick": 86.125,
+          "barriers_per_tick": 88.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.6872319999999998,
+          "delta_vs_baseline_ms": -0.8480480000000001,
+          "delta_min_ms": -0.8976,
+          "delta_max_ms": -0.7032639999999999,
+          "dispatches_per_tick": 36.125,
+          "barriers_per_tick": 36.125
+        }
+      },
+      "all_gates_pass": false
+    },
+    "4/11": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 6,
+          "passes": 6,
+          "messages": []
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 6,
+          "passes": 5,
+          "messages": [
+            "Geometry comparison exercised no local reactions"
+          ]
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.8613119999999999,
+          "delta_vs_baseline_ms": -0.8654400000000001,
+          "delta_min_ms": -0.9357120000000001,
+          "delta_max_ms": -0.8331520000000001,
+          "dispatches_per_tick": 94.125,
+          "barriers_per_tick": 96.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.401808,
+          "delta_vs_baseline_ms": -1.1304480000000001,
+          "delta_min_ms": -1.172672,
+          "delta_max_ms": -1.017728,
+          "dispatches_per_tick": 32.125,
+          "barriers_per_tick": 32.125
+        }
+      },
+      "all_gates_pass": false
+    },
+    "4/6": {
+      "gates": {
+        "fluid_quality": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "liquids": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "granular": {
+          "runs": 1,
+          "passes": 0,
+          "messages": [
+            "Dense contact solve exceeded a grain radius of penetration"
+          ]
+        },
+        "flow": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "coupling": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        },
+        "mission": {
+          "runs": 1,
+          "passes": 1,
+          "messages": []
+        }
+      },
+      "scenes": {
+        "mission": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.5899999999999999,
+          "delta_vs_baseline_ms": -1.1343680000000003,
+          "delta_min_ms": -1.206496,
+          "delta_max_ms": -1.09808,
+          "dispatches_per_tick": 74.125,
+          "barriers_per_tick": 76.125
+        },
+        "dam-break": {
+          "segments": 4,
+          "qualified": 4,
+          "gpu_median_ms": 1.4007999999999998,
+          "delta_vs_baseline_ms": -1.131456,
+          "delta_min_ms": -1.194048,
+          "delta_max_ms": -0.9734719999999999,
+          "dispatches_per_tick": 32.125,
+          "barriers_per_tick": 32.125
+        }
+      },
+      "all_gates_pass": false
+    }
+  }
+}

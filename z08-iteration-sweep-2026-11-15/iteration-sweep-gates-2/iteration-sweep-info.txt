@@ -1,0 +1,12 @@
+schema=1
+plan=gates
+seed=5894684499782308348
+renderer=NVIDIA GeForce GTX 1650/PCIe/SSE2
+version=4.3.0 NVIDIA 610.47
+substeps=2
+configs=6/9,5/10,4/10,5/9,4/9,4/8,8/12,6/8
+gates=fluid_quality,liquids,granular,flow,coupling,mission
+warmup=120
+measured=240
+blocks=0
+result=completed
